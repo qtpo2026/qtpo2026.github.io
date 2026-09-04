@@ -109,11 +109,7 @@ languages:
               url: "#attend-modal"
             enableBanner: false
 
-          # 👉 TODO: paste the embed URL for the "guest interest" Google
-          # Form here (Google Forms → Send → the "<>" embed tab → copy the
-          # src="..." URL from the <iframe> snippet). Until this is set,
-          # the popup shows the explanation text but no actual form.
-          attendFormEmbedUrl: ""
+          attendFormEmbedUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfceSE3eOLhalscMk0Tu0rbTUtwfxEmb1PTVaW0j2gjAkzOJw/viewform?embedded=true"
 
           images:
             # 👉 Drop the transparent-background PNG/SVG logo file at this exact
@@ -135,9 +131,9 @@ languages:
             shadow: "#1B2A5E33"
 
           # Custom field (not a built-in theme param) consumed by
-          # layouts/_default/organizers.html. `lead: true` renders in the
-          # larger "Lead Organizers" tier; everyone else renders in the
-          # "Organizing Committee" grid below it.
+          # layouts/_default/organizers.html. Everyone here renders together
+          # under a single "Organizers" heading (`lead: true` is unused now —
+          # the page no longer splits out a separate "Lead Organizers" tier).
           #
           # 👉 Headshots: drop a photo at the exact `photo:` path below (JPG
           # or PNG both work — just tell me if a name needs a different

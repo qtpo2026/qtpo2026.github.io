@@ -20,7 +20,17 @@
         {{- end }}
         <h2 class="event-title-section__subheading">
             {{- with $input.startDate }}
-                {{- . | time.AsTime | time.Format ":date_long" }},
+                {{- $start := . | time.AsTime }}
+                {{- with $input.endDate }}
+                    {{- $end := . | time.AsTime }}
+                    {{- if eq ($start.Format "200601") ($end.Format "200601") }}
+                        {{- $start.Format "Jan 2" }}–{{ $end.Format "2, 2006" }},
+                    {{- else }}
+                        {{- $start.Format "Jan 2" }}–{{ $end.Format "Jan 2, 2006" }},
+                    {{- end }}
+                {{- else }}
+                    {{- $start.Format "Jan 2, 2006" }},
+                {{- end }}
             {{- end }}
             {{ $input.location }}
         </h2>

@@ -5,6 +5,7 @@
         "slogan" .Site.Params.themes.event.slogan
         "location" .Site.Params.themes.event.location
         "startDate" .Site.Params.themes.event.startDate
+        "endDate" .Site.Params.themes.event.endDate
         "backgroundImage" .Site.Params.themes.event.images.titleBackground
         "eventbriteId" .Site.Params.themes.event.callToAction.eventbrite.eventId
         "ctaUrl" .Site.Params.themes.event.callToAction.other.url
@@ -106,4 +107,20 @@
     {{- end }}
 
     {{- partial "sections/our-sponsors.html" (dict "sponsors" .Site.Params.themes.event.sponsors) -}}
+
+    {{- with .Site.Params.themes.event.address }}
+        <section class="venue-section">
+            <h2 class="venue-section__heading heading heading--2">{{ T "location_page.heading" }}</h2>
+            <address class="venue-section__address">
+                {{- range $index, $line := . }}
+                    {{- if $index }}, {{ end }}{{- $line | markdownify }}
+                {{- end }}
+            </address>
+            <p class="paragraph paragraph--embedded venue-section__note">
+                This event is scheduled and located close to
+                <a href="https://www.ptcog-na.org/ptcog-na-12th-annual-meeting" rel="noopener noreferrer" target="_blank">PTCOG NA 2026</a>,
+                which is one of the major events in oncology.
+            </p>
+        </section>
+    {{- end }}
 {{- end }}
