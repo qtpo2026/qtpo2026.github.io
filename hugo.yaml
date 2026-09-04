@@ -155,7 +155,8 @@ languages:
               url:
             - name: "PhD Xiaodi Wu"
               affiliation: "University of Maryland, College Park"
-              photo: headshots/xiaodi-wu.jpg
+              lead: true
+              photo: headshots/xiaodi-wu.jpeg
               url:
             - name: "PhD Arezoo Modiri"
               affiliation: "University of Maryland, Baltimore — School of Medicine"
@@ -191,7 +192,7 @@ languages:
           # "Workshop Coordination" tier below the committee.
           workshopCoordination:
             - name: "Anish Ghosh"
-              role: "Workshop Coordinator"
+              role: "Student Organizer and Workshop Coordinator"
               affiliation: "University of Maryland, Baltimore County (UMBC)"
               photo: headshots/anish-ghosh.jpg
               url:
@@ -238,6 +239,9 @@ languages:
             - name: "University of Maryland School of Medicine"
               logo: logos/sponsors/umd-school-of-medicine.svg
               url:
+            - name: "UMBC Quantum Science Institute"
+              logo: logos/sponsors/qsi.png
+              url : 
             - name: "Fujitsu"
               logo: logos/sponsors/fujitsu.svg
               url:
