@@ -17,35 +17,6 @@
                         use the button below to let us know.
                     </p>
                 </div>
-
-                {{ with .Site.GetPage "/program" }}
-                    <div class="speaker-slots">
-                        {{ range .Params.days }}
-                            {{ $day := . }}
-                            {{ $talkItems := slice }}
-                            {{ range .sessions }}
-                                {{ range .items }}
-                                    {{ if .talk }}
-                                        {{ $talkItems = $talkItems | append . }}
-                                    {{ end }}
-                                {{ end }}
-                            {{ end }}
-                            {{ if gt (len $talkItems) 0 }}
-                                <div class="speaker-slots__day">
-                                    <h2 class="heading heading--3 speaker-slots__day-heading">{{ $day.date }}</h2>
-                                    <ul class="program-session__items">
-                                        {{ range $talkItems }}
-                                            <li class="program-item">
-                                                <span class="program-item__time">{{ .time }}</span>
-                                                <span class="program-item__label">Talk</span>
-                                            </li>
-                                        {{ end }}
-                                    </ul>
-                                </div>
-                            {{ end }}
-                        {{ end }}
-                    </div>
-                {{ end }}
             {{ else }}
                 <menu class="speaker-list__menu">
                     {{ range .Pages.GroupByParam "lastName" }}
