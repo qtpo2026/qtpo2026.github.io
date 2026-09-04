@@ -48,6 +48,8 @@
 
 {{ define "main" }}
     {{ $committee := .Site.Params.themes.event.organizingCommittee }}
+    {{ $lead := where $committee "lead" true }}
+    {{ $rest := where $committee "lead" "ne" true }}
     {{ $coordination := .Site.Params.themes.event.workshopCoordination }}
 
     <div class="section-container">
@@ -58,10 +60,19 @@
                 <div class="markdown about__text">{{ . }}</div>
             {{ end }}
 
-            {{ if gt (len $committee) 0 }}
+            {{ if gt (len $lead) 0 }}
                 <h2 class="heading heading--2">Organizers</h2>
                 <menu class="about__organizers-menu">
-                    {{ range $committee }}
+                    {{ range $lead }}
+                        {{ template "organizer-card" . }}
+                    {{ end }}
+                </menu>
+            {{ end }}
+
+            {{ if gt (len $rest) 0 }}
+                <h2 class="heading heading--2">Organizing Committee</h2>
+                <menu class="about__organizers-menu">
+                    {{ range $rest }}
                         {{ template "organizer-card" . }}
                     {{ end }}
                 </menu>

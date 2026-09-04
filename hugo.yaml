@@ -131,9 +131,9 @@ languages:
             shadow: "#1B2A5E33"
 
           # Custom field (not a built-in theme param) consumed by
-          # layouts/_default/organizers.html. Everyone here renders together
-          # under a single "Organizers" heading (`lead: true` is unused now —
-          # the page no longer splits out a separate "Lead Organizers" tier).
+          # layouts/_default/organizers.html. `lead: true` renders under the
+          # "Organizers" heading, above everyone else, who render under
+          # "Organizing Committee" below it.
           #
           # 👉 Headshots: drop a photo at the exact `photo:` path below (JPG
           # or PNG both work — just tell me if a name needs a different
