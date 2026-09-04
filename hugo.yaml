@@ -250,3 +250,6 @@ languages:
             - name: "Zapata AI"
               logo: logos/sponsors/zapata.png
               url:
+            - name: "QLab"
+              logo: logos/sponsors/qlab.svg
+              url:
