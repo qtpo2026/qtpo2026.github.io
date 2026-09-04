@@ -109,18 +109,30 @@
     {{- partial "sections/our-sponsors.html" (dict "sponsors" .Site.Params.themes.event.sponsors) -}}
 
     {{- with .Site.Params.themes.event.address }}
-        <section class="venue-section">
-            <h2 class="venue-section__heading heading heading--2">{{ T "location_page.heading" }}</h2>
-            <address class="venue-section__address">
-                {{- range $index, $line := . }}
-                    {{- if $index }}, {{ end }}{{- $line | markdownify }}
-                {{- end }}
-            </address>
-            <p class="paragraph paragraph--embedded venue-section__note">
-                This event is scheduled and located close to
-                <a href="https://www.ptcog-na.org/ptcog-na-12th-annual-meeting" rel="noopener noreferrer" target="_blank">PTCOG NA 2026</a>,
-                which is one of the major events in oncology.
-            </p>
-        </section>
+        {{- $venueCaption := delimit . ", " }}
+        {{- $dateCaption := "" }}
+        {{- if eq ($eventStartDate.Format "200601") ($eventEndDate.Format "200601") }}
+            {{- $dateCaption = printf "%s–%s" ($eventStartDate.Format "Jan 2") ($eventEndDate.Format "2, 2006") }}
+        {{- else }}
+            {{- $dateCaption = printf "%s–%s" ($eventStartDate.Format "Jan 2") ($eventEndDate.Format "Jan 2, 2006") }}
+        {{- end }}
+        <div class="section-container">
+            <section class="section section--short">
+                <div class="program-facts">
+                    {{ partial "highlight-figure.html" (
+                        dict
+                        "icon" "icons/calendar.svg"
+                        "caption" $dateCaption
+                        )
+                    }}
+                    {{ partial "highlight-figure.html" (
+                        dict
+                        "icon" "icons/location.svg"
+                        "caption" $venueCaption
+                        )
+                    }}
+                </div>
+            </section>
+        </div>
     {{- end }}
 {{- end }}

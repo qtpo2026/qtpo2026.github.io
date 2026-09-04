@@ -96,7 +96,9 @@ languages:
             With participants and invited speakers from the **United States, Japan, and Europe**,
             the workshop will provide an international forum for exchanging research results,
             clinical experience, emerging technologies, funding opportunities, and future
-            research priorities.
+            research priorities. This event is scheduled and located close to
+            [PTCOG NA 2026](https://www.ptcog-na.org/ptcog-na-12th-annual-meeting), which is
+            one of the major events in oncology.
 
           # QTPO 2026 speakers are invited directly by the organizing
           # committee — there is no open registration. Clicking the
@@ -145,7 +147,7 @@ languages:
             - name: "Mohammad Mohammadisiahroudi"
               affiliation: "University of Maryland, Baltimore County (UMBC)"
               lead: true
-              photo: headshots/mohammad-mohammadisiahroudi.jpg
+              photo: headshots/mohammad-mohammadisiahroudi.jpeg
               url:
             - name: "Robabeh Rahimi"
               affiliation: "Inova Health System"
