@@ -239,9 +239,7 @@ languages:
             - name: "University of Maryland School of Medicine"
               logo: logos/sponsors/umd-school-of-medicine.svg
               url:
-            - name: "UMBC Quantum Science Institute"
-              logo: logos/sponsors/qsi.png
-              url : 
+            
             - name: "Fujitsu"
               logo: logos/sponsors/fujitsu.svg
               url:
@@ -257,3 +255,6 @@ languages:
             - name: "QLab"
               logo: logos/sponsors/qlab.svg
               url:
+            - name: "UMBC Quantum Science Institute"
+              logo: logos/sponsors/qsi.png
+              url : 
