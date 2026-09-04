@@ -1,0 +1,50 @@
+{{ define "main" }}
+    <section class="speaker-list">
+        <div class="section">
+            <h1 class="heading heading--1">{{ T "speakers_page.heading" }}</h1>
+
+            {{ if eq (len .Pages) 0 }}
+                <div class="coming-soon-card">
+                    {{ with resources.Get "icons/speaker.svg" }}
+                        <img class="coming-soon-card__icon" src="{{ .RelPermalink }}" alt="" aria-hidden="true" />
+                    {{ end }}
+                    <h2 class="heading heading--2 coming-soon-card__heading">Speaker lineup coming soon</h2>
+                    <p class="paragraph coming-soon-card__text">
+                        Speakers for QTPO 2026 are invited directly by the
+                        organizing committee, and the full lineup will be
+                        announced here closer to the event. There is no open
+                        registration, but if you'd like to attend as a guest,
+                        use the button below to let us know.
+                    </p>
+                </div>
+            {{ else }}
+                <menu class="speaker-list__menu">
+                    {{ range .Pages.GroupByParam "lastName" }}
+                        {{ range .Pages.ByParam "firstName" }}
+                            <li class="speaker-list__item">
+                                {{- partial "speaker-card.html" (
+                                    dict
+                                    "profileUrl" .RelPermalink
+                                    "avatarResource" (.Resources.GetMatch "avatar.*")
+                                    "name" .Title
+                                    "description" .Params.tagLine
+                                    "linkedinUrl" .Params.linkedinUrl
+                                    "xUrl" .Params.xUrl
+                                    "companyUrl" .Params.company
+                                    )
+                                }}
+                            </li>
+                        {{ end }}
+                    {{ end }}
+                </menu>
+            {{ end }}
+        </div>
+    </section>
+
+    {{- partial "sections/cta.html" (
+        dict
+        "eventbriteId" .Site.Params.themes.event.callToAction.eventbrite.eventId
+        "ctaUrl" .Site.Params.themes.event.callToAction.other.url
+        )
+    }}
+{{ end }}

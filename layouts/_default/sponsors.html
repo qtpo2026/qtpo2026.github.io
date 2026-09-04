@@ -1,0 +1,77 @@
+{{ define "sponsor-tile" }}
+    {{ $item := . }}
+    {{ $logoResource := "" }}
+    {{ if $item.logo }}
+        {{ with resources.Get $item.logo }}
+            {{ $logoResource = . }}
+        {{ end }}
+    {{ end }}
+    <li class="sponsors__list-item">
+        <div class="sponsor-card">
+            {{ if $logoResource }}
+                {{ if $item.url }}
+                    <a class="sponsor-card__link" href="{{ $item.url }}" rel="noopener noreferrer external" target="_blank">
+                        <img
+                            class="sponsor-card__logo"
+                            src="{{ $logoResource.RelPermalink }}"
+                            alt="{{ $item.name }}"
+                            {{ if not (eq $logoResource.MediaType.SubType "svg") }}
+                                width="{{ $logoResource.Width }}" height="{{ $logoResource.Height }}"
+                            {{ end }} />
+                    </a>
+                {{ else }}
+                    <img
+                        class="sponsor-card__logo"
+                        src="{{ $logoResource.RelPermalink }}"
+                        alt="{{ $item.name }}"
+                        {{ if not (eq $logoResource.MediaType.SubType "svg") }}
+                            width="{{ $logoResource.Width }}" height="{{ $logoResource.Height }}"
+                        {{ end }} />
+                {{ end }}
+            {{ else }}
+                <span class="sponsor-card__placeholder">{{ $item.name }}</span>
+            {{ end }}
+        </div>
+    </li>
+{{ end }}
+
+{{ define "main" }}
+    {{ $institutions := .Site.Params.themes.event.organizingInstitutions }}
+    {{ $sponsors := .Site.Params.themes.event.sponsorOrganizations }}
+
+    <div class="section-container">
+        <section class="section about">
+            <h1 class="heading heading--1">{{ .Title }}</h1>
+
+            {{ with .Content }}
+                <div class="markdown about__text">{{ . }}</div>
+            {{ end }}
+
+            {{ if gt (len $institutions) 0 }}
+                <div class="sponsor-group">
+                    <div class="sponsor-group__header">
+                        <span class="sponsor-group__label sponsor-group__label--a">Organizing Institutions</span>
+                    </div>
+                    <ul class="sponsors__list">
+                        {{ range $institutions }}
+                            {{ template "sponsor-tile" . }}
+                        {{ end }}
+                    </ul>
+                </div>
+            {{ end }}
+
+            {{ if gt (len $sponsors) 0 }}
+                <div class="sponsor-group">
+                    <div class="sponsor-group__header">
+                        <span class="sponsor-group__label sponsor-group__label--b">Sponsors</span>
+                    </div>
+                    <ul class="sponsors__list">
+                        {{ range $sponsors }}
+                            {{ template "sponsor-tile" . }}
+                        {{ end }}
+                    </ul>
+                </div>
+            {{ end }}
+        </section>
+    </div>
+{{ end }}

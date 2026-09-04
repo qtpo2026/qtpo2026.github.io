@@ -1,0 +1,91 @@
+{{ define "organizer-card" }}
+    {{/* Use a real photo the moment one exists at the configured path;
+         otherwise fall back to the theme's generic placeholder avatar. */}}
+    {{ $photo := "" }}
+    {{ with $.photo }}
+        {{ with resources.Get . }}
+            {{ $photo = . }}
+        {{ end }}
+    {{ end }}
+    {{ if not $photo }}
+        {{ $photo = resources.Get "images/shaped-image-fallback.webp" }}
+    {{ end }}
+
+    {{ $avatarImg := "" }}
+    {{ with $photo }}
+        {{ $attrs := "" }}
+        {{ if ne .MediaType.SubType "svg" }}
+            {{ $attrs = printf ` width="%d" height="%d"` .Width .Height }}
+        {{ end }}
+        {{ $avatarImg = printf `<img class="speaker-card__avatar" src="%s" alt="%s"%s />` .RelPermalink $.name $attrs }}
+    {{ end }}
+
+    {{ $roleHtml := "" }}
+    {{ with $.role }}
+        {{ $roleHtml = printf `<p class="speaker-card__role">%s</p>` . }}
+    {{ end }}
+
+    <li>
+        <div class="speaker-card">
+            {{ if $.url }}
+                <a class="speaker-card__link" href="{{ $.url }}" rel="noopener noreferrer external" target="_blank" aria-label="{{ $.name }}">
+                    {{ $avatarImg | safeHTML }}
+                    <h1 class="heading">{{ $.name }}</h1>
+                    {{ $roleHtml | safeHTML }}
+                    <p class="speaker-card__description">{{ $.affiliation }}</p>
+                </a>
+            {{ else }}
+                <div class="speaker-card__link speaker-card__link--static">
+                    {{ $avatarImg | safeHTML }}
+                    <h1 class="heading">{{ $.name }}</h1>
+                    {{ $roleHtml | safeHTML }}
+                    <p class="speaker-card__description">{{ $.affiliation }}</p>
+                </div>
+            {{ end }}
+        </div>
+    </li>
+{{ end }}
+
+{{ define "main" }}
+    {{ $committee := .Site.Params.themes.event.organizingCommittee }}
+    {{ $lead := where $committee "lead" true }}
+    {{ $rest := where $committee "lead" "ne" true }}
+    {{ $coordination := .Site.Params.themes.event.workshopCoordination }}
+
+    <div class="section-container">
+        <section class="section about">
+            <h1 class="heading heading--1">{{ .Title }}</h1>
+
+            {{ with .Content }}
+                <div class="markdown about__text">{{ . }}</div>
+            {{ end }}
+
+            {{ if gt (len $lead) 0 }}
+                <h2 class="heading heading--2">Lead Organizers</h2>
+                <menu class="about__organizers-menu">
+                    {{ range $lead }}
+                        {{ template "organizer-card" . }}
+                    {{ end }}
+                </menu>
+            {{ end }}
+
+            {{ if gt (len $rest) 0 }}
+                <h2 class="heading heading--2">Organizing Committee</h2>
+                <menu class="about__organizers-menu">
+                    {{ range $rest }}
+                        {{ template "organizer-card" . }}
+                    {{ end }}
+                </menu>
+            {{ end }}
+
+            {{ if gt (len $coordination) 0 }}
+                <h2 class="heading heading--2">Workshop Coordination</h2>
+                <menu class="about__organizers-menu">
+                    {{ range $coordination }}
+                        {{ template "organizer-card" . }}
+                    {{ end }}
+                </menu>
+            {{ end }}
+        </section>
+    </div>
+{{ end }}

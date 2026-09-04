@@ -1,270 +1,249 @@
 theme: event
+title: "Quantum Technologies for Precision Oncology"
 
-defaultContentLanguage: de
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+defaultContentLanguage: en
+
 languages:
-    _merge: deep
-    en:
-        disabled: false
-        menus:
-            main:
-                - identifier: about
-                  pageRef: /about
-                  weight: 10
-                - identifier: sessions
-                  pageRef: /sessions
-                  weight: 20
-                - identifier: speakers
-                  pageRef: /speakers
-                  weight: 30
-                - identifier: location
-                  pageRef: /location
-                  weight: 40
-                - identifier: sponsors
-                  pageRef: /sponsors
-                  weight: 50
-                - identifier: code_of_conduct
-                  pageRef: /code-of-conduct
-                  weight: 60
-            footer:
-                - identifier: imprint
-                  pageRef: /imprint
-                  weight: 10
-                - identifier: privacy
-                  pageRef: /privacy-policy
-                  weight: 20
-            secondary:
-                - identifier: about
-                  pageRef: /about
-                  weight: 10
-                  params:
-                      description: |
-                          Learn more about our mission, values, and the people behind our organization.
-                          The "About Us" page provides insights into who we are, what we do,
-                          and why we’re passionate about our work.
-                - identifier: speakers
-                  pageRef: /speakers
-                  weight: 30
-                  params:
-                      description: |
-                          Meet our distinguished speakers who will be sharing their expertise.
-                          Learn more about their backgrounds and what they will discuss.
-                - identifier: location
-                  pageRef: /location
-                  weight: 40
-                  params:
-                      description: |
-                          Find out where the event will take place.
-                          This section provides details on the venue, directions, and nearby accommodations.
-                - identifier: code_of_conduct
-                  pageRef: /code-of-conduct
-                  weight: 60
-                  params:
-                      description: |
-                          Read about the code of conduct for our event.
-                          This section outlines the expectations for participant behavior and event policies.
-        params:
-            # Open Graph / X (Twitter) Cards
-            description: |
-                A demo website to showcase the features of the "Event" theme for the
-                static website generator HUGO.
-            themes:
-                event:
-                    slogan: Not a real conference - this is just a demo!
-                    location: Pforzheim, Germany
-                    description: |
-                        This is a demo website to showcase the features of the __Event__ theme
-                        for the static website generator [Hugo](https://gohugo.io). You can
-                        find the source code of this website on
-                        [GitHub](https://github.com/medialesson/hugo-theme-event-demo). The theme
-                        can fetch data of any event from [Sessionize](https://sessionize.com) and
-                        automatically generates a schedule, a speaker list, and more. It also 
-                        integrates well with [Eventbrite](https://www.eventbrite.com) to sell tickets.
-                    directions: |
-                        #### By Public Transportation
-                        Take the number 25 bus from downtown. [Click here for the bus
-                        schedule](https://www.kvv.de/en/plan-trip/timetables.html).
+  _merge: deep
 
-                        #### By Car:
-                        From Downtown: Take Main Street north for 2 miles and turn right on
-                        Elm Street. [Get
-                        directions](https://www.kvv.de/en/plan-trip/timetables.html).
-                    aboutUs: |
-                        ### Mission
-                        We help companies and organizations to digital transform their business, products and processes through consulting,
-                        strategy, design, software development and training using cutting edge technology.
+  en:
+    disabled: false
+    languageName: English
+    languageCode: en-US
+    weight: 1
 
-                        ### Established
-                        - **2002** - Founded
+    menus:
+      main:
+        - identifier: organizers
+          name: Organizers
+          pageRef: /organizers
+          weight: 10
 
-                        ### Our Team
-                        - **25+** Employees
-                        - **5** Nationalities
+        - identifier: sponsors
+          name: Sponsors
+          pageRef: /sponsors
+          weight: 20
 
-                        ### Additional Info
-                        - We bring together diverse expertise and innovation.
-                    callToActionSecondary:
-                      label: Become a Speaker!
+        - identifier: speakers
+          name: Speakers
+          pageRef: /speakers
+          weight: 30
 
-    de:
-        disabled: false
-        menus:
-            main:
-                - identifier: about
-                  pageRef: /about
-                  weight: 10
-                - identifier: sessions
-                  pageRef: /sessions
-                  weight: 20
-                - identifier: speakers
-                  pageRef: /speakers
-                  weight: 30
-                - identifier: location
-                  pageRef: /location
-                  weight: 40
-                - identifier: sponsors
-                  pageRef: /sponsors
-                  weight: 50
-                - identifier: code_of_conduct
-                  pageRef: /code-of-conduct
-                  weight: 60
-            footer:
-                - identifier: imprint
-                  pageRef: /imprint
-                  weight: 10
-                - identifier: privacy
-                  pageRef: /privacy-policy
-                  weight: 20
-            secondary:
-                - identifier: about
-                  pageRef: /about
-                  weight: 10
-                  params:
-                      description: |
-                          Erfahren Sie mehr über unsere Mission, Werte und die Menschen hinter unserer Organisation.
-                          Die Seite „Über uns“ bietet Einblicke, wer wir sind, was wir tun
-                          und warum wir leidenschaftlich an unserer Arbeit interessiert sind.
-                - identifier: speakers
-                  pageRef: /speakers
-                  weight: 30
-                  params:
-                      description: |
-                          Lernen Sie unsere herausragenden Referenten kennen, die ihr Fachwissen mit uns teilen werden.
-                          Erfahren Sie mehr über ihre Hintergründe und was sie besprechen werden.
-                - identifier: location
-                  pageRef: /location
-                  weight: 40
-                  params:
-                      description: |
-                          Finden Sie heraus, wo die Veranstaltung stattfindet.
-                          Dieser Abschnitt bietet Informationen zum Veranstaltungsort,
-                          zu Anfahrtsbeschreibungen und zu nahegelegenen Unterkünften.
-                - identifier: code_of_conduct
-                  pageRef: /code-of-conduct
-                  weight: 60
-                  params:
-                      description: |
-                          Lesen Sie die Verhaltensregeln für unsere Veranstaltung.
-                          Dieser Abschnitt beschreibt die Erwartungen an das Verhalten der Teilnehmer
-                          und die Veranstaltungsrichtlinien.
-        params:
-            # Open Graph / X (Twitter) Cards
-            description: |
-                Eine Demo-Website die das Thema "Event" für den statischen
-                Website-Generator HUGO vorstellt.
-            themes:
-                event:
-                    slogan: Keine echte Konferenz - nur eine Demo!
-                    location: Pforzheim
-                    description: |
-                        Dies ist eine Demo-Website, um die Funktionen des Thema __Event__
-                        für den statischen Website-Generator [Hugo](https://gohugo.io)
-                        vorzustellen. Der Quellcode dieser Website steht auf
-                        [GitHub](https://github.com/medialesson/hugo-theme-event-demo)
-                        bereit. Das Thema kann Daten einer beliebigen Veranstaltung von
-                        [Sessionize](https://sessionize.com) abrufen und generiert
-                        automatisch einen Zeitplan, eine Rednerliste und mehr. Es lässt sich
-                        zudem gut mit [Eventbrite](https://www.eventbrite.com) integrieren,
-                        um Tickets zu verkaufen.
-                    directions: |
-                        #### Mit den Öffentlichen:
-                        Nehmen Sie den Bus Nummer 25 vom Stadtzentrum. [Hier klicken für den
-                        Busfahrplan](https://www.kvv.de/en/plan-trip/timetables.html).
+        - identifier: program
+          name: Program
+          pageRef: /program
+          weight: 40
 
-                        #### Mit dem Auto:
-                        Fahren Sie vom Stadtzentrum aus 2 Meilen nach Norden auf der Main
-                        Street und biegen Sie dann rechts in die Elm Street ab.
-                        [Wegbeschreibung
-                        abrufen](https://www.kvv.de/en/plan-trip/timetables.html).
+        - identifier: faq
+          name: FAQ
+          pageRef: /faq
+          weight: 50
 
-                    aboutUs: |
-                        ### Mission
-                        Wir helfen Unternehmen und Organisationen, ihr Geschäft, ihre Produkte und Prozesse durch Beratung, Strategie, Design, Softwareentwicklung und Schulungen mit modernster Technologie digital zu transformieren.
+      footer:
+        - identifier: faq
+          name: FAQ
+          pageRef: /faq
+          weight: 10
 
-                        ### Gründung
-                        - **2002** - Gegründet
+        - identifier: contact
+          name: Contact
+          pageRef: /contact
+          weight: 20
 
-                        ### Unser Team
-                        - **25+** Mitarbeiter
-                        - **5** Nationalitäten
+    params:
+      description: |
+        Quantum Technologies for Precision Oncology: From Drug Discovery to Radiation Therapy
+        is an international workshop bringing together researchers, clinicians, engineers,
+        technology developers, industry leaders, and decision-makers to explore the emerging
+        role of quantum and quantum-inspired technologies in cancer research and care.
 
-                        ### Zusätzliche Informationen
-                        - Wir vereinen vielfältige Expertise und Innovation.
-                    callToActionSecondary:
-                      label: Sprecher:in werden!
-
-params:
-    # Open Graph / X (Twitter) Cards
-    images:
-        - logos/medicon-512.jpg
-    themes:
+      themes:
         event:
-            sessionizeId: 67poir7q
-            title: medicon
-            shortTitle:
-            startDate: 2027-01-30
-            endDate: 2027-01-31
-            address:
-                - Medialesson GmbH
-                - Habermehlstraße 15
-                - 75172 Pforzheim
-                - Germany
-            map:
-                embeddableMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977?scrollWheelZoom=false
-                viewLargerMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977
-                # Link to edit the map: https://umap.openstreetmap.fr/en/map/anonymous-edit/1105977:HjtVVnbwCn6Yi3O02DTPnspzuyoHvP_Kn-M9rE53eE8
-            callToAction:
-                eventbrite:
-                    eventId: 976108886957
-            callToActionSecondary:
-                url: https://sessionize.com/lukasconf
-            socialLinks:
-                xUrl: https://x.com/medialesson
-                facebookUrl: https://www.facebook.com/medialesson/
-                linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
-            images:
-                logo: logos/medicon-512.webp
-                titleBackground: images/pexels-caleboquendo-3023317.webp
-                location: images/habermehlstr.webp
-            sponsors:
-                - logo: logos/medialesson-logo.svg
-                  url: https://www.media-lesson.com/
-                  name: 'Medialesson GmbH'
-            partners:
-                - logo: logos/medialesson-logo.svg
-                  url: https://www.media-lesson.com/
-                  name: 'Medialesson GmbH'
-            organizers:
-                - '00000000-0000-0000-0000-000000000000'
-                - '00000000-0000-0000-0000-000000000001'
-                - '00000000-0000-0000-0000-000000000004'
-                - '00000000-0000-0000-0000-000000000002'
-            featuredSessions:
-                - '729572'
-                - '729576'
-                - '729579'
-            colors:
-                primaryLighter: '#5CB1E8'
-                primary: '#0d81be'
-                primaryDarker: '#143e8b'
-                track: '#15B8CA'
-            redirectBasedOnBrowserLang: true
+          title: "Quantum Technologies for Precision Oncology"
+          shortTitle: "QTPO 2026"
+          slogan: "From Drug Discovery to Radiation Therapy"
+          location: "Washington, DC"
+          startDate: 2026-11-05
+          endDate: 2026-11-06
+
+          address:
+            - "Carolina at The Capitol"
+            - "101 Constitution Avenue NW"
+            - "Washington, DC"
+
+          description: |
+            **Quantum Technologies for Precision Oncology: From Drug Discovery to Radiation Therapy**
+            is an international workshop bringing together researchers, clinicians, engineers,
+            technology developers, industry leaders, and decision-makers to explore the emerging
+            role of quantum and quantum-inspired technologies in cancer research and care.
+
+            The workshop will place particular emphasis on **radiation therapy and treatment
+            planning**, where advanced computational methods have the potential to improve
+            optimization, personalization, and clinical decision-making.
+
+            Selected discussions will also address broader applications in oncology,
+            including **drug discovery** and other computational challenges in cancer research.
+
+            A central goal is to build stronger connections among the **quantum computing,
+            clinical, and engineering communities** and develop a shared understanding of
+            clinical needs, computational opportunities, and technological capabilities.
+
+            With participants and invited speakers from the **United States, Japan, and Europe**,
+            the workshop will provide an international forum for exchanging research results,
+            clinical experience, emerging technologies, funding opportunities, and future
+            research priorities.
+
+          # QTPO 2026 speakers are invited directly by the organizing
+          # committee — there is no open registration. This link is for
+          # guests who want to express interest in attending.
+          # 👉 TODO: put that link's URL here once you have it. Until then,
+          # no "I'm Interested in Attending" button is shown anywhere on the
+          # site (header, hero, footer, speakers page) because this is unset.
+          callToAction:
+            other:
+              url:
+            enableBanner: false
+
+          images:
+            # 👉 Drop the transparent-background PNG/SVG logo file at this exact
+            # path (assets/logos/qtpo-logo.png) and it will appear automatically
+            # in the header, sidebar and homepage — no config change needed.
+            logo: logos/qtpo-logo.png
+            titleBackground: images/homepage_background.png
+
+          # Palette derived from the QTPO logo (navy / teal / violet). Swap for
+          # exact brand hex codes once available.
+          colors:
+            primaryLighter: "#4FB8C9"
+            primary: "#146B82"
+            primaryDarker: "#1B2A5E"
+            primaryDarkest: "#0E1526"
+            secondary: "#F5F7FA"
+            secondaryDarker: "#5B6B84"
+            track: "#6C4FA1"
+            shadow: "#1B2A5E33"
+
+          # Custom field (not a built-in theme param) consumed by
+          # layouts/_default/organizers.html. `lead: true` renders in the
+          # larger "Lead Organizers" tier; everyone else renders in the
+          # "Organizing Committee" grid below it.
+          #
+          # 👉 Headshots: drop a photo at the exact `photo:` path below (JPG
+          # or PNG both work — just tell me if a name needs a different
+          # extension) into assets/headshots/ and it replaces the placeholder
+          # automatically, no other change needed.
+          # 👉 Personal page: set `url:` to link that person's card out to
+          # their homepage/profile. Leave it blank to keep the card static.
+          organizingCommittee:
+            - name: "Mohammad Mohammadisiahroudi"
+              affiliation: "University of Maryland, Baltimore County (UMBC)"
+              lead: true
+              photo: headshots/mohammad-mohammadisiahroudi.jpg
+              url:
+            - name: "Robabeh Rahimi"
+              affiliation: "Inova Health System"
+              lead: true
+              photo: headshots/robabeh-rahimi.jpg
+              url:
+            - name: "Xiaodi Wu"
+              affiliation: "University of Maryland, College Park"
+              photo: headshots/xiaodi-wu.jpg
+              url:
+            - name: "Arezoo Modiri"
+              affiliation: "University of Maryland, Baltimore — School of Medicine"
+              photo: headshots/arezoo-modiri.jpg
+              url:
+            - name: "Michele Dougherty"
+              affiliation: "Mayo Clinic"
+              photo: headshots/michele-dougherty.jpg
+              url:
+            - name: "Yudong Cao"
+              affiliation: "Zapata AI"
+              photo: headshots/yudong-cao.jpg
+              url:
+            - name: "Iuliana Toma-Dasu"
+              affiliation: "Stockholm University"
+              photo: headshots/iuliana-toma-dasu.jpg
+              url:
+            - name: "Mitsuho Imai"
+              affiliation: "National Cancer Center Hospital East, Japan"
+              photo: headshots/mitsuho-imai.jpg
+              url:
+            - name: "Jiajin Fan"
+              affiliation: "Inova Health System"
+              photo: headshots/jiajin-fan.jpg
+              url:
+            - name: "Karl V. Steiner"
+              affiliation: "University of Maryland, Baltimore County (UMBC)"
+              photo: headshots/karl-v-steiner.jpg
+              url:
+
+          # Custom field (not a built-in theme param) consumed by
+          # layouts/_default/organizers.html. Rendered as its own
+          # "Workshop Coordination" tier below the committee.
+          workshopCoordination:
+            - name: "Anish Ghosh"
+              role: "Workshop Coordinator"
+              affiliation: "University of Maryland, Baltimore County (UMBC)"
+              photo: headshots/anish-ghosh.jpg
+              url:
+
+          # Custom field (not a built-in theme param) consumed by
+          # layouts/partials/sections/focus-areas.html on the homepage.
+          focusAreas:
+            - label: "Central Emphasis"
+              heading: "Radiation Therapy & Treatment Planning"
+              description: |
+                Advanced computational methods for optimization, personalization,
+                and clinical decision-making in radiation oncology.
+            - label: "Also Featured"
+              heading: "Drug Discovery & Computational Oncology"
+              description: |
+                Selected discussions extending into drug discovery and other
+                computational challenges across cancer research.
+
+          # Custom fields (not built-in theme params) consumed by
+          # layouts/_default/sponsors.html.
+          #
+          # 👉 To add a logo: drop the file at the exact path below (create
+          # assets/logos/sponsors/ if it doesn't exist yet) and it appears
+          # automatically — no other change needed. PNG or SVG both work.
+          # `url` is optional; if set, the logo becomes a clickable link.
+          organizingInstitutions:
+            - name: "University of North Carolina at Chapel Hill"
+              logo: logos/sponsors/unc-chapel-hill.png
+              url:
+            - name: "University of Maryland, Baltimore County (UMBC)"
+              logo: logos/sponsors/umbc.png
+              url:
+
+          sponsorOrganizations:
+            - name: "Japan Society for the Promotion of Science (JSPS)"
+              logo: logos/sponsors/jsps.png
+              url:
+            - name: "Inova"
+              logo: logos/sponsors/inova.svg
+              url:
+            - name: "University of Maryland, College Park"
+              logo: logos/sponsors/umd-college-park.png
+              url:
+            - name: "University of Maryland School of Medicine"
+              logo: logos/sponsors/umd-school-of-medicine.svg
+              url:
+            - name: "Fujitsu"
+              logo: logos/sponsors/fujitsu.svg
+              url:
+            - name: "D-Wave"
+              logo: logos/sponsors/d-wave.png
+              url:
+            - name: "Mayo Clinic"
+              logo: logos/sponsors/mayo-clinic.svg
+              url:
+            - name: "Zapata AI"
+              logo: logos/sponsors/zapata.png
+              url:

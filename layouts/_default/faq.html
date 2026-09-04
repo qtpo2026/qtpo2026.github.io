@@ -1,0 +1,24 @@
+{{ define "main" }}
+    {{ $items := .Params.items }}
+
+    <div class="section-container">
+        <section class="section about">
+            <h1 class="heading heading--1">{{ .Title }}</h1>
+
+            {{ with .Content }}
+                <div class="markdown about__text">{{ . }}</div>
+            {{ end }}
+
+            {{ if gt (len $items) 0 }}
+                <div class="faq-list">
+                    {{ range $items }}
+                        <details class="faq-item">
+                            <summary class="faq-item__question">{{ .q }}</summary>
+                            <div class="faq-item__answer markdown">{{ .a | markdownify }}</div>
+                        </details>
+                    {{ end }}
+                </div>
+            {{ end }}
+        </section>
+    </div>
+{{ end }}

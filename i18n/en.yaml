@@ -1,3 +1,13 @@
-menu.imprint: Imprint
+menu.contact: Contact
 menu.privacy: Privacy Policy
-cta_banner.message: Get your free ticket now!
+menu.speakers: Speakers
+menu.program: Program
+menu.faq: FAQ
+menu.organizers: Organizers
+menu.sponsors: Sponsors
+cta_banner.message: Interested in attending QTPO 2026?
+cta_button.get_ticket: I'm Interested in Attending
+cta_section.heading: Interested in attending QTPO 2026?
+cta_section.subheading: Speakers are invited directly by the organizing committee
+cta_section.message: |
+    There is no open registration, but if you'd like to attend as a guest, let us know using the link below.

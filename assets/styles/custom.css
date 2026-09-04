@@ -1,0 +1,327 @@
+/* Nudge the hero title down from the top of the cover image. */
+.event-title-section .event-title-section__header {
+    margin-top: 3.5rem;
+}
+
+.speaker-card__role {
+    all: unset;
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-primary);
+    margin-top: -0.5rem;
+}
+
+.speaker-card__link--static {
+    cursor: default;
+}
+
+.sponsor-card__placeholder {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-primary-darker);
+}
+
+.sponsors__list-item .sponsor-card,
+.sponsors__list-item .sponsor-card:hover {
+    border: none;
+    box-shadow: none;
+}
+
+/* Show the brand logo/title in the header on every viewport width — the
+   theme's default only shows it once the layout falls back to sidebar
+   mode, which hides it on most desktop widths. */
+[data-menu-mode='header'] .page-header__title-link.page-header__title-link--brand {
+    display: flex;
+    align-items: center;
+}
+
+.page-header__title-link--brand {
+    flex-grow: 0 !important;
+}
+
+.page-header__logo {
+    display: block;
+    height: 2.25rem;
+    width: auto;
+}
+
+.page-sidebar__logo {
+    display: block;
+    height: 2.5rem;
+    width: auto;
+}
+
+/* Program page */
+
+.program-facts {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 1rem 0 2.5rem;
+}
+
+.program-days {
+    all: unset;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.program-day-card {
+    position: relative;
+    background: var(--color-secondary);
+    border-radius: 0.75rem;
+    padding: 1.75rem 1.75rem 2rem;
+    box-shadow: 0 0.125rem 0.5rem 0 var(--color-shadow);
+    border-top: 0.3125rem solid var(--color-primary);
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.program-day-card:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0 0.5rem 1.25rem 0 var(--color-shadow);
+}
+
+.program-day-card--b {
+    border-top-color: var(--color-track);
+}
+
+.program-day-card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.program-day-card__label {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    background: var(--color-primary);
+    border-radius: 999px;
+    padding: 0.25rem 0.75rem;
+}
+
+.program-day-card--b .program-day-card__label {
+    background: var(--color-track);
+}
+
+.program-day-card__date {
+    font-size: 0.875rem;
+    color: var(--color-secondary-darker);
+}
+
+.program-day-card__heading {
+    margin: 0 0 0.25rem;
+}
+
+.program-day-card__format {
+    font-style: italic;
+    font-size: 0.875rem;
+    color: var(--color-secondary-darker);
+    margin: 0 0 1rem;
+}
+
+.program-day-card__topics {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    list-style: none;
+}
+
+.program-day-card__topics li {
+    position: relative;
+    padding-left: 1.375rem;
+    line-height: 1.5;
+}
+
+.program-day-card__topics li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--color-primary);
+}
+
+.program-day-card--b .program-day-card__topics li::before {
+    background: var(--color-track);
+}
+
+/* Speakers page — empty-state card */
+
+.coming-soon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    max-width: 34rem;
+    margin: 1.5rem auto 0;
+    padding: 2.5rem 2rem;
+    background: var(--color-secondary);
+    border-radius: 0.75rem;
+    box-shadow: 0 0.125rem 0.5rem 0 var(--color-shadow);
+}
+
+.coming-soon-card__icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    box-sizing: border-box;
+    padding: 0.875rem;
+    background-color: var(--color-primary);
+    border-radius: 1rem;
+}
+
+.coming-soon-card__heading {
+    margin: 0;
+}
+
+.coming-soon-card__text {
+    margin: 0;
+    color: var(--color-secondary-darker);
+}
+
+/* Sponsors page */
+
+.sponsor-group {
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.sponsor-group__header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.sponsor-group__label {
+    display: inline-block;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    background: var(--color-primary);
+    border-radius: 999px;
+    padding: 0.375rem 1rem;
+}
+
+.sponsor-group__label--b {
+    background: var(--color-track);
+}
+
+.sponsor-card__logo {
+    transition: transform 0.2s ease;
+}
+
+.sponsor-card__link:hover .sponsor-card__logo,
+.sponsors__list-item > .sponsor-card > .sponsor-card__logo:hover {
+    transform: scale(1.06);
+}
+
+/* FAQ page */
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+    width: 100%;
+    max-width: 46rem;
+    margin-top: 1.5rem;
+}
+
+.faq-item {
+    background: var(--color-secondary);
+    border-radius: 0.75rem;
+    padding: 1.125rem 1.375rem;
+    box-shadow: 0 0.125rem 0.5rem 0 var(--color-shadow);
+}
+
+.faq-item__question {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    color: var(--color-primary-darkest);
+}
+
+.faq-item__question::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item__question::after {
+    content: '+';
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: var(--color-primary);
+    color: white;
+    font-size: 1.125rem;
+    line-height: 1;
+    transition: transform 0.2s ease;
+}
+
+.faq-item[open] .faq-item__question::after {
+    transform: rotate(135deg);
+}
+
+.faq-item__answer {
+    margin-top: 0.875rem;
+    padding-top: 0.875rem;
+    border-top: 1px solid var(--color-shadow);
+    color: var(--color-secondary-darker);
+}
+
+.faq-item__answer :first-child {
+    margin-top: 0;
+}
+
+.faq-item__answer :last-child {
+    margin-bottom: 0;
+}
+
+/* Homepage — Focus Areas */
+
+.focus-areas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.focus-areas__list {
+    max-width: 62rem;
+}
+
+.program-day-card__format--body {
+    font-style: normal;
+    font-size: 1rem;
+    color: inherit;
+    margin-bottom: 0;
+}

@@ -1,0 +1,21 @@
+{{ $areas := .areas }}
+{{ if gt (len $areas) 0 }}
+    <div class="section-container">
+        <section class="section section--short focus-areas">
+            <h1 class="heading heading--highlighted heading--centered">Focus Areas</h1>
+            <h2 class="heading heading--2 heading--centered">What the workshop is here to talk about</h2>
+
+            <ul class="program-days focus-areas__list">
+                {{ range $index, $area := $areas }}
+                    <li class="program-day-card {{ if eq (mod $index 2) 0 }}program-day-card--a{{ else }}program-day-card--b{{ end }}">
+                        <div class="program-day-card__header">
+                            <span class="program-day-card__label">{{ $area.label }}</span>
+                        </div>
+                        <h2 class="heading heading--2 program-day-card__heading">{{ $area.heading }}</h2>
+                        <p class="program-day-card__format program-day-card__format--body">{{ $area.description }}</p>
+                    </li>
+                {{ end }}
+            </ul>
+        </section>
+    </div>
+{{ end }}

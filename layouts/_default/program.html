@@ -1,0 +1,57 @@
+{{ define "main" }}
+    {{ $event := .Site.Params.themes.event }}
+    {{ $days := .Params.days }}
+
+    <div class="section-container">
+        <section class="section about">
+            <h1 class="heading heading--1">{{ .Title }}</h1>
+
+            {{ with .Content }}
+                <div class="markdown about__text">{{ . }}</div>
+            {{ end }}
+
+            <div class="program-facts">
+                {{ partial "highlight-figure.html" (
+                    dict
+                    "icon" "icons/calendar.svg"
+                    "caption" "Nov 5–6, 2026"
+                    )
+                }}
+                {{ partial "highlight-figure.html" (
+                    dict
+                    "icon" "icons/location.svg"
+                    "caption" (delimit $event.address ", ")
+                    )
+                }}
+                {{ partial "highlight-figure.html" (
+                    dict
+                    "icon" "icons/session.svg"
+                    "caption" "Hybrid event"
+                    )
+                }}
+            </div>
+
+            {{ if gt (len $days) 0 }}
+                <ul class="program-days">
+                    {{ range $index, $day := $days }}
+                        <li class="program-day-card {{ if eq (mod $index 2) 0 }}program-day-card--a{{ else }}program-day-card--b{{ end }}">
+                            <div class="program-day-card__header">
+                                <span class="program-day-card__label">{{ $day.label }}</span>
+                                <span class="program-day-card__date">{{ $day.date }}</span>
+                            </div>
+                            <h2 class="heading heading--2 program-day-card__heading">{{ $day.heading }}</h2>
+                            {{ with $day.format }}
+                                <p class="program-day-card__format">{{ . }}</p>
+                            {{ end }}
+                            <ul class="program-day-card__topics">
+                                {{ range $day.topics }}
+                                    <li>{{ . }}</li>
+                                {{ end }}
+                            </ul>
+                        </li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+        </section>
+    </div>
+{{ end }}
