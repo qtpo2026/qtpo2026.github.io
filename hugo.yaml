@@ -143,45 +143,45 @@ languages:
           # 👉 Personal page: set `url:` to link that person's card out to
           # their homepage/profile. Leave it blank to keep the card static.
           organizingCommittee:
-            - name: "Mohammad Mohammadisiahroudi"
+            - name: "PhD Mohammad Mohammadisiahroudi"
               affiliation: "University of Maryland, Baltimore County (UMBC)"
               lead: true
               photo: headshots/mohammad-mohammadisiahroudi.jpeg
               url:
-            - name: "Robabeh Rahimi"
+            - name: "PhD Robabeh Rahimi"
               affiliation: "Inova Health System"
               lead: true
               photo: headshots/robabeh-rahimi.jpg
               url:
-            - name: "Xiaodi Wu"
+            - name: "PhD Xiaodi Wu"
               affiliation: "University of Maryland, College Park"
               photo: headshots/xiaodi-wu.jpg
               url:
-            - name: "Arezoo Modiri"
+            - name: "PhD Arezoo Modiri"
               affiliation: "University of Maryland, Baltimore — School of Medicine"
               photo: headshots/arezoo-modiri.jpg
               url:
-            - name: "Michele Dougherty"
+            - name: "PhD Michele Dougherty"
               affiliation: "Mayo Clinic"
               photo: headshots/michele-dougherty.jpg
               url:
-            - name: "Yudong Cao"
+            - name: "PhD Yudong Cao"
               affiliation: "Zapata AI"
               photo: headshots/yudong-cao.jpg
               url:
-            - name: "Iuliana Toma-Dasu"
+            - name: "PhD Iuliana Toma-Dasu"
               affiliation: "Stockholm University"
               photo: headshots/iuliana-toma-dasu.jpg
               url:
-            - name: "Mitsuho Imai"
+            - name: "MD, PhD Mitsuho Imai"
               affiliation: "National Cancer Center Hospital East, Japan"
               photo: headshots/mitsuho-imai.jpg
               url:
-            - name: "Jiajin Fan"
+            - name: "PhD Jiajin Fan"
               affiliation: "Inova Health System"
               photo: headshots/jiajin-fan.jpg
               url:
-            - name: "Karl V. Steiner"
+            - name: "PhD Karl V. Steiner"
               affiliation: "University of Maryland, Baltimore County (UMBC)"
               photo: headshots/karl-v-steiner.jpg
               url:
