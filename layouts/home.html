@@ -17,7 +17,6 @@
 
     {{ $eventStartDate := or .Site.Params.themes.event.startDate now | time }}
     {{ $eventEndDate := or .Site.Params.themes.event.endDate now | time }}
-    {{ $dayInSeconds := 86400 }}
     {{ partial "sections/event-highlights.html" (
         dict
         "title" .Site.Params.themes.event.title
@@ -25,9 +24,7 @@
         "description" .Site.Params.themes.event.description
         "logo" .Site.Params.themes.event.images.logo
         "numberOfSpeakers" ((where .Site.RegularPages "Section" "speakers") | len)
-        "numberOfSessions" (where (where .Site.RegularPages "Section" "sessions") "Params.isServiceSession" false | len)
-        "numberOfDays" (div (sub (add $eventEndDate.Unix $dayInSeconds) $eventStartDate.Unix) $dayInSeconds)
-        "location" .Site.Params.themes.event.location )
+        "numberOfSessions" (where (where .Site.RegularPages "Section" "sessions") "Params.isServiceSession" false | len) )
     }}
 
     {{- $tracks := slice }}
