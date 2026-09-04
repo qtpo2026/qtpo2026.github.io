@@ -314,5 +314,41 @@
                 {{- partial "menus/footer.html" (dict "menu" site.Menus.footer) }}
             </section>
         </footer>
+
+        <dialog id="attendModal" class="attend-modal">
+            <button type="button" class="attend-modal__close" aria-label="{{ T "attend_modal.close" }}">&times;</button>
+            <div class="attend-modal__body">
+                <h2>{{ T "cta_section.heading" }}</h2>
+                <p>{{ T "cta_section.subheading" }}</p>
+                <p>{{ T "cta_section.message" }}</p>
+                {{- with .Site.Params.themes.event.attendFormEmbedUrl }}
+                    <iframe class="attend-modal__iframe" src="{{ . }}" width="100%" height="600" title="{{ T "cta_button.get_ticket" }}">
+                        {{ T "attend_modal.loading" }}
+                    </iframe>
+                {{- end }}
+            </div>
+        </dialog>
+
+        <script>
+            (function () {
+                var modal = document.getElementById('attendModal');
+                if (!modal) return;
+
+                document.addEventListener('click', function (event) {
+                    var trigger = event.target.closest('a[href="#attend-modal"]');
+                    if (!trigger) return;
+                    event.preventDefault();
+                    modal.showModal();
+                });
+
+                modal.addEventListener('click', function (event) {
+                    if (event.target === modal) modal.close();
+                });
+
+                modal.querySelector('.attend-modal__close').addEventListener('click', function () {
+                    modal.close();
+                });
+            })();
+        </script>
     </body>
 </html>

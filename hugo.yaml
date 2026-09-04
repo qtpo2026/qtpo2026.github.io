@@ -99,15 +99,21 @@ languages:
             research priorities.
 
           # QTPO 2026 speakers are invited directly by the organizing
-          # committee — there is no open registration. This link is for
-          # guests who want to express interest in attending.
-          # 👉 TODO: put that link's URL here once you have it. Until then,
-          # no "I'm Interested in Attending" button is shown anywhere on the
-          # site (header, hero, footer, speakers page) because this is unset.
+          # committee — there is no open registration. Clicking the
+          # "I'm Interested in Attending" button (header, hero, sidebar,
+          # speakers page, etc.) opens a popup with the guest-interest
+          # form instead of navigating — see #attend-modal in
+          # layouts/_default/baseof.html.
           callToAction:
             other:
-              url:
+              url: "#attend-modal"
             enableBanner: false
+
+          # 👉 TODO: paste the embed URL for the "guest interest" Google
+          # Form here (Google Forms → Send → the "<>" embed tab → copy the
+          # src="..." URL from the <iframe> snippet). Until this is set,
+          # the popup shows the explanation text but no actual form.
+          attendFormEmbedUrl: ""
 
           images:
             # 👉 Drop the transparent-background PNG/SVG logo file at this exact
@@ -197,12 +203,12 @@ languages:
           # layouts/partials/sections/focus-areas.html on the homepage.
           focusAreas:
             - label: "Central Emphasis"
-              heading: "Radiation Therapy & Treatment Planning"
+              heading: "Quantum Technologies For Radiation Therapy & Treatment Planning"
               description: |
                 Advanced computational methods for optimization, personalization,
                 and clinical decision-making in radiation oncology.
             - label: "Also Featured"
-              heading: "Drug Discovery & Computational Oncology"
+              heading: "Quantum Technologies For Drug Discovery & Computational Oncology"
               description: |
                 Selected discussions extending into drug discovery and other
                 computational challenges across cancer research.

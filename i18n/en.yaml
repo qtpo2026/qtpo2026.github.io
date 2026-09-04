@@ -11,3 +11,5 @@ cta_section.heading: Interested in attending QTPO 2026?
 cta_section.subheading: Speakers are invited directly by the organizing committee
 cta_section.message: |
     There is no open registration, but if you'd like to attend as a guest, let us know using the link below.
+attend_modal.close: Close
+attend_modal.loading: Loading form…
