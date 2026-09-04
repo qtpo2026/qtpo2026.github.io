@@ -32,25 +32,47 @@
             </div>
 
             {{ if gt (len $days) 0 }}
-                <ul class="program-days">
+                <div class="program-agenda">
                     {{ range $index, $day := $days }}
-                        <li class="program-day-card {{ if eq (mod $index 2) 0 }}program-day-card--a{{ else }}program-day-card--b{{ end }}">
-                            <div class="program-day-card__header">
+                        <section class="program-day {{ if eq (mod $index 2) 0 }}program-day--a{{ else }}program-day--b{{ end }}">
+                            <div class="program-day__header">
                                 <span class="program-day-card__label">{{ $day.label }}</span>
                                 <span class="program-day-card__date">{{ $day.date }}</span>
-                            </div>
-                            <h2 class="heading heading--2 program-day-card__heading">{{ $day.heading }}</h2>
-                            {{ with $day.format }}
-                                <p class="program-day-card__format">{{ . }}</p>
-                            {{ end }}
-                            <ul class="program-day-card__topics">
-                                {{ range $day.topics }}
-                                    <li>{{ . }}</li>
+                                {{ with $day.format }}
+                                    <span class="program-day__format">{{ . }}</span>
                                 {{ end }}
-                            </ul>
-                        </li>
+                            </div>
+
+                            {{ range $day.sessions }}
+                                {{ if .title }}
+                                    <article class="program-session">
+                                        <h2 class="heading heading--3 program-session__title">{{ .title }}</h2>
+                                        {{ with .description }}
+                                            <p class="paragraph paragraph--embedded program-session__description">{{ . | markdownify }}</p>
+                                        {{ end }}
+                                        <ul class="program-session__items">
+                                            {{ range .items }}
+                                                <li class="program-item">
+                                                    <span class="program-item__time">{{ .time }}</span>
+                                                    <span class="program-item__label">{{ .label }}</span>
+                                                </li>
+                                            {{ end }}
+                                        </ul>
+                                    </article>
+                                {{ else }}
+                                    <ul class="program-break">
+                                        {{ range .items }}
+                                            <li class="program-item">
+                                                <span class="program-item__time">{{ .time }}</span>
+                                                <span class="program-item__label">{{ .label }}</span>
+                                            </li>
+                                        {{ end }}
+                                    </ul>
+                                {{ end }}
+                            {{ end }}
+                        </section>
                     {{ end }}
-                </ul>
+                </div>
             {{ end }}
         </section>
     </div>

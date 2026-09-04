@@ -201,23 +201,19 @@ languages:
           # layouts/partials/sections/focus-areas.html on the homepage.
           focusAreas:
             - label: "Central Emphasis"
-              heading: "Quantum Technologies For Radiation Therapy & Treatment Planning"
+              heading: "Radiation Therapy & Treatment Planning"
               description: |
                 Advanced computational methods for optimization, personalization,
                 and clinical decision-making in radiation oncology.
             - label: "Also Featured"
-              heading: "Quantum Technologies For Drug Discovery & Computational Oncology"
+              heading: "Drug Discovery & Computational Oncology"
               description: |
                 Selected discussions extending into drug discovery and other
                 computational challenges across cancer research.
 
           # Custom fields (not built-in theme params) consumed by
           # layouts/_default/sponsors.html.
-          #
-          # 👉 To add a logo: drop the file at the exact path below (create
-          # assets/logos/sponsors/ if it doesn't exist yet) and it appears
-          # automatically — no other change needed. PNG or SVG both work.
-          # `url` is optional; if set, the logo becomes a clickable link.
+    
           organizingInstitutions:
             - name: "University of North Carolina at Chapel Hill"
               logo: logos/sponsors/unc-chapel-hill.png

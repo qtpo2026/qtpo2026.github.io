@@ -106,43 +106,26 @@
     margin: 1rem 0 2.5rem;
 }
 
-.program-days {
-    all: unset;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-    gap: 1.5rem;
+.program-agenda {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
     width: 100%;
-    list-style: none;
     margin-top: 1rem;
 }
 
-.program-day-card {
-    position: relative;
-    background: var(--color-secondary);
-    border-radius: 0.75rem;
-    padding: 1.75rem 1.75rem 2rem;
-    box-shadow: 0 0.125rem 0.5rem 0 var(--color-shadow);
-    border-top: 0.3125rem solid var(--color-primary);
-    transition:
-        transform 0.2s ease,
-        box-shadow 0.2s ease;
-}
-
-.program-day-card:hover {
-    transform: translateY(-0.25rem);
-    box-shadow: 0 0.5rem 1.25rem 0 var(--color-shadow);
-}
-
-.program-day-card--b {
-    border-top-color: var(--color-track);
-}
-
-.program-day-card__header {
+.program-day__header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 0.75rem;
-    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 0.125rem solid var(--color-primary);
+}
+
+.program-day--b .program-day__header {
+    border-bottom-color: var(--color-track);
 }
 
 .program-day-card__label {
@@ -157,27 +140,39 @@
     padding: 0.25rem 0.75rem;
 }
 
-.program-day-card--b .program-day-card__label {
+.program-day--b .program-day-card__label {
     background: var(--color-track);
 }
 
 .program-day-card__date {
-    font-size: 0.875rem;
-    color: var(--color-secondary-darker);
+    font-weight: 600;
+    color: var(--color-primary-darkest);
 }
 
-.program-day-card__heading {
-    margin: 0 0 0.25rem;
-}
-
-.program-day-card__format {
+.program-day__format {
     font-style: italic;
     font-size: 0.875rem;
     color: var(--color-secondary-darker);
-    margin: 0 0 1rem;
 }
 
-.program-day-card__topics {
+.program-session {
+    background: var(--color-secondary);
+    border-radius: 0.75rem;
+    padding: 1.5rem 1.75rem;
+    box-shadow: 0 0.125rem 0.5rem 0 var(--color-shadow);
+    margin-bottom: 1.25rem;
+}
+
+.program-session__title {
+    margin: 0 0 0.5rem;
+}
+
+.program-session__description {
+    color: var(--color-secondary-darker);
+    margin-bottom: 1.25rem;
+}
+
+.program-session__items {
     all: unset;
     display: flex;
     flex-direction: column;
@@ -185,25 +180,52 @@
     list-style: none;
 }
 
-.program-day-card__topics li {
-    position: relative;
-    padding-left: 1.375rem;
-    line-height: 1.5;
+.program-item {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
 }
 
-.program-day-card__topics li::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0.5rem;
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    background: var(--color-primary);
+.program-item__time {
+    flex: 0 0 8rem;
+    font-weight: 700;
+    color: var(--color-primary);
 }
 
-.program-day-card--b .program-day-card__topics li::before {
-    background: var(--color-track);
+.program-item__label {
+    color: var(--color-primary-darkest);
+}
+
+.program-break {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0.5rem 0 1.25rem;
+}
+
+.program-break .program-item {
+    font-style: italic;
+}
+
+.program-break .program-item__time {
+    flex: 0 0 auto;
+    color: var(--color-secondary-darker);
+}
+
+.program-break .program-item__label {
+    color: var(--color-secondary-darker);
+}
+
+@media (max-width: 576px) {
+    .program-item {
+        flex-direction: column;
+        gap: 0.125rem;
+    }
+
+    .program-item__time {
+        flex-basis: auto;
+    }
 }
 
 /* Speakers page — empty-state card */
@@ -238,6 +260,19 @@
 .coming-soon-card__text {
     margin: 0;
     color: var(--color-secondary-darker);
+}
+
+.speaker-slots {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 34rem;
+    margin: 2.5rem auto 0;
+}
+
+.speaker-slots__day-heading {
+    margin: 0 0 1rem;
+    text-align: center;
 }
 
 /* Sponsors page */
@@ -359,10 +394,68 @@
     max-width: 62rem;
 }
 
-.program-day-card__format--body {
-    font-style: normal;
+.focus-area-cards {
+    all: unset;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.focus-area-card {
+    position: relative;
+    background: var(--color-secondary);
+    border-radius: 0.75rem;
+    padding: 1.75rem 1.75rem 2rem;
+    box-shadow: 0 0.125rem 0.5rem 0 var(--color-shadow);
+    border-top: 0.3125rem solid var(--color-primary);
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.focus-area-card:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0 0.5rem 1.25rem 0 var(--color-shadow);
+}
+
+.focus-area-card--b {
+    border-top-color: var(--color-track);
+}
+
+.focus-area-card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.focus-area-card__label {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    background: var(--color-primary);
+    border-radius: 999px;
+    padding: 0.25rem 0.75rem;
+}
+
+.focus-area-card--b .focus-area-card__label {
+    background: var(--color-track);
+}
+
+.focus-area-card__heading {
+    margin: 0 0 0.25rem;
+}
+
+.focus-area-card__description {
     font-size: 1rem;
-    color: inherit;
+    color: var(--color-secondary-darker);
     margin-bottom: 0;
 }
 
