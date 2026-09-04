@@ -1,0 +1,51 @@
+{{ $input := . }}
+
+{{/* Project override of themes/event/layouts/partials/sections/event-title.html
+     — adds a slogan/subtitle line between the title and the date/location
+     line. Keep in sync with the theme's version if it changes upstream. */}}
+
+<section
+    class="event-title-section"
+    {{- with resources.Get $input.backgroundImage }}
+        style="background-image: url('{{ .RelPermalink }}');"
+    {{ end }}>
+    <div class="event-title-section__header">
+        <h1 class="event-title-section__heading">
+            {{- $input.title }}
+        </h1>
+        {{- with $input.slogan }}
+            <p class="event-title-section__slogan">
+                {{- . }}
+            </p>
+        {{- end }}
+        <h2 class="event-title-section__subheading">
+            {{- with $input.startDate }}
+                {{- . | time.AsTime | time.Format ":date_long" }},
+            {{- end }}
+            {{ $input.location }}
+        </h2>
+    </div>
+
+    <div class="event-title-section__footer">
+        {{- if $input.startDate }}
+            {{ partial "countdown.html" (dict "targetDate" $input.startDate) }}
+        {{- end }}
+
+
+        <div class="event-title-section__footer-buttons">
+            {{- partial "cta/button.html" (dict "eventbriteId" $input.eventbriteId "ctaUrl" $input.ctaUrl "buttonClass" "button--scaled") }}
+
+            {{- with $input.ctaSecondary }}
+                {{- if .url }}
+                    <a
+                        href="{{ .url }}"
+                        class="button button--outlined button--scaled"
+                        rel="noopener noreferrer external"
+                        target="_blank">
+                        {{ .label }}
+                    </a>
+                {{- end }}
+            {{- end }}
+        </div>
+    </div>
+</section>
