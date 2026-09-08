@@ -254,3 +254,6 @@ languages:
             - name: "UMBC Quantum Science Institute"
               logo: logos/sponsors/qsi.png
               url : 
+            - name: "Quantum Computing Inc"
+              logo: logos/sponsors/qci.jpg
+              url :
