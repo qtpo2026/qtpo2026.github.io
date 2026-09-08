@@ -217,43 +217,56 @@ languages:
           organizingInstitutions:
             - name: "University of North Carolina at Chapel Hill"
               logo: logos/sponsors/unc-chapel-hill.png
-              url:
+              url: https://www.unc.edu/
             - name: "University of Maryland, Baltimore County (UMBC)"
               logo: logos/sponsors/umbc.png
-              url:
+              url: https://umbc.edu/
 
           sponsorOrganizations:
             - name: "Japan Society for the Promotion of Science (JSPS)"
               logo: logos/sponsors/jsps.png
-              url:
+              url: https://www.jsps.go.jp/english/
             - name: "Inova"
               logo: logos/sponsors/inova.svg
-              url:
+              url: https://www.inova.org/
             - name: "University of Maryland, College Park"
               logo: logos/sponsors/umd-college-park.png
-              url:
+              url:  https://umd.edu/
             - name: "University of Maryland School of Medicine"
               logo: logos/sponsors/umd-school-of-medicine.svg
-              url:
+              url: https://www.medschool.umaryland.edu/
             
             - name: "Fujitsu"
               logo: logos/sponsors/fujitsu.svg
-              url:
+              url: https://global.fujitsu/en-US/local/technology/research
             - name: "D-Wave"
               logo: logos/sponsors/d-wave.png
-              url:
+              url: https://www.dwavequantum.com/
             - name: "Mayo Clinic"
               logo: logos/sponsors/mayo-clinic.svg
-              url:
+              url: https://www.mayoclinic.org/
             - name: "Zapata AI"
               logo: logos/sponsors/zapata.png
-              url:
+              url: https://zapataquantum.com/
             - name: "QLab"
               logo: logos/sponsors/qlab.svg
-              url:
+              url:  https://qlab.umd.edu/
             - name: "UMBC Quantum Science Institute"
               logo: logos/sponsors/qsi.png
-              url : 
+              url : https://qsi.umbc.edu/
             - name: "Quantum Computing Inc"
               logo: logos/sponsors/qci.jpg
-              url :
+              url : https://quantumcomputinginc.com/
+
+
+
+              
+
+
+
+
+
+
+
+
+
