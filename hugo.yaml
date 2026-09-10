@@ -242,9 +242,9 @@ languages:
             - name: "D-Wave"
               logo: logos/sponsors/d-wave.png
               url: https://www.dwavequantum.com/
-            - name: "Mayo Clinic"
-              logo: logos/sponsors/mayo-clinic.svg
-              url: https://www.mayoclinic.org/
+            # - name: "Mayo Clinic"
+            #   logo: logos/sponsors/mayo-clinic.svg
+            #   url: https://www.mayoclinic.org/
             - name: "Zapata AI"
               logo: logos/sponsors/zapata.png
               url: https://zapataquantum.com/
