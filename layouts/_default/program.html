@@ -55,6 +55,14 @@
                                                 <li class="program-item">
                                                     <span class="program-item__time">{{ .time }}</span>
                                                     <span class="program-item__label">{{ .label }}</span>
+                                                    {{ with .speakers }}
+                                                        <span class="program-item__speakers">
+                                                            {{ range $i, $s := . }}
+                                                                {{ if gt $i 0 }}, {{ end }}
+                                                                {{ if $s.url }}<a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer external">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}
+                                                            {{ end }}
+                                                        </span>
+                                                    {{ end }}
                                                 </li>
                                             {{ end }}
                                         </ul>

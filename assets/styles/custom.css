@@ -183,7 +183,8 @@
 .program-item {
     display: flex;
     align-items: baseline;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
 }
 
 .program-item__time {
@@ -194,6 +195,18 @@
 
 .program-item__label {
     color: var(--color-primary-darkest);
+}
+
+.program-item__speakers {
+    flex-basis: 100%;
+    margin-left: 9rem;
+    font-size: 0.875rem;
+    font-style: italic;
+    color: var(--color-secondary-darker);
+}
+
+.program-item__speakers a {
+    color: inherit;
 }
 
 .program-break {

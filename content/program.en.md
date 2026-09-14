@@ -16,12 +16,18 @@ days:
             label: "Welcome"
           - time: "9:05 – 9:15"
             label: "Opening Remarks"
+            speakers:
+              - name: "Karl Steiner"
+                url: "https://research.umbc.edu/steiner/"
+              - name: "TBD"
           - time: "9:15 – 9:25"
             label: "Healthcare, Medicine, and Emerging Technologies"
             talk: true
           - time: "9:25 – 9:55"
-            label: "Keynote Talk"
+            label: "Quantum Technologies for Precision Oncology: Opportunities and Challenges from a Clinical Perspective"
             talk: true
+            speakers:
+              - name: "Mitsuho Imai"
           - time: "9:55 – 10:25"
             label: "Keynote Talk"
             talk: true
@@ -34,17 +40,25 @@ days:
           treatment planning, imaging, workflow, and related clinical challenges.
         items:
           - time: "10:40 – 11:00"
-            label: "Talk"
+            label: "Quantum and Quantum-Inspired Approaches for Treatment Planning Optimization"
             talk: true
+            speakers:
+              - name: "Daryl Nazareth"
           - time: "11:00 – 11:20"
-            label: "Talk"
+            label: "Quantum and Quantum-Inspired Approaches for Workflow Optimization in Radiation Oncology Department"
             talk: true
+            speakers:
+              - name: "Akira SaiToh"
           - time: "11:20 – 11:40"
-            label: "Talk"
+            label: "Quantum-Enhanced Imaging for Radiation Oncology"
             talk: true
+            speakers:
+              - name: "Grum Taklemariam"
           - time: "11:40 – 12:00"
-            label: "Talk"
+            label: "Radiation Therapy for Cancer: Clinical Workflow and Treatment Delivery"
             talk: true
+            speakers:
+              - name: "Arezoo Modiri"
       - items:
           - time: "12:00 – 12:30"
             label: "Lunch"
@@ -57,6 +71,11 @@ days:
           - time: "12:30 – 13:30"
             label: "Quantum Heuristic Decomposition and Practical Demo"
             talk: true
+            speakers:
+              - name: "Mohammad Mohammadisiahroudi"
+              - name: "Xiaodi Wu"
+              - name: "Jiaqi Leng"
+              - name: "Yuxiang Peng"
           - time: "13:30 – 13:40"
             label: "Networking Break and Light Refreshments"
       - title: "Quantum Hardware and Platforms for Oncology Applications"
@@ -66,14 +85,21 @@ days:
           including optimization and computational workflows.
         items:
           - time: "13:40 – 14:00"
-            label: "Quantum Hardware Session"
+            label: "Fujitsu: Quantum and Quantum-Inspired Platforms for Healthcare Applications"
             talk: true
+            speakers:
+              - name: "Saif Rayyan"
           - time: "14:00 – 14:20"
-            label: "Quantum Hardware Session"
+            label: "Quantum Computing Inc.: Quantum Technologies and Platforms for Healthcare Applications"
             talk: true
+            speakers:
+              - name: "Dianat, Wesley & Babak"
           - time: "14:20 – 14:40"
-            label: "Quantum Hardware Session"
+            label: "D-Wave: Quantum Annealing for Optimization in Healthcare and Oncology"
             talk: true
+            speakers:
+              - name: "Ken Robbins"
+              - name: "Susan Davis"
           - time: "14:40 – 15:00"
             label: "Quantum Hardware Session"
             talk: true
@@ -111,6 +137,9 @@ days:
           - time: "17:00 – 17:30"
             label: "International Collaboration Panel"
             talk: true
+            speakers:
+              - name: "Samiul (JSPS)"
+              - name: "Naomi (JSPS)"
       - title: "Facility Visit"
         description: |
           Participants will travel to a cancer treatment facility for a guided visit,
@@ -123,6 +152,22 @@ days:
     date: "Friday, November 6, 2026"
     format: "In person"
     sessions:
+      - title: "Quantum Algorithms and Applications"
+        description: |
+          
+        items:
+          - time: "9:00 – 9:15"
+            label: "Talk"
+            talk: true
+          - time: "9:15 – 9:30"
+            label: "Talk"
+            talk: true
+          - time: "9:30 – 9:45"
+            label: "Talk"
+            talk: true
+          - time: "9:45 – 10:00"
+            label: "Talk"
+            talk: true
       - title: "Panels and Community Discussion"
         description: |
           The second day is devoted to in-depth panel discussions on scientific
