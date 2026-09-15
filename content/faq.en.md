@@ -30,9 +30,8 @@ items:
     a: |
       QTPO 2026 does not have open registration — speakers are invited
       directly by the organizing committee. If you're interested in
-      attending as a guest, use the "I'm Interested in Attending" link on
-      the [Speakers](/speakers) page (or in the site header, once it's
-      live).
+      attending as a guest, use the "I'm Interested in Attending" button
+      in the site header.
   - q: "How can I propose a talk?"
     a: |
       Speakers are invited directly by the organizing committee rather

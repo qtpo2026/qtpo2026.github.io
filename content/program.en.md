@@ -19,7 +19,6 @@ days:
             speakers:
               - name: "Karl Steiner"
                 url: "https://research.umbc.edu/steiner/"
-              - name: "TBD"
           - time: "9:15 – 9:25"
             label: "Healthcare, Medicine, and Emerging Technologies"
             talk: true
@@ -40,25 +39,25 @@ days:
           treatment planning, imaging, workflow, and related clinical challenges.
         items:
           - time: "10:40 – 11:00"
-            label: "Quantum and Quantum-Inspired Approaches for Treatment Planning Optimization"
-            talk: true
-            speakers:
-              - name: "Daryl Nazareth"
-          - time: "11:00 – 11:20"
-            label: "Quantum and Quantum-Inspired Approaches for Workflow Optimization in Radiation Oncology Department"
-            talk: true
-            speakers:
-              - name: "Akira SaiToh"
-          - time: "11:20 – 11:40"
-            label: "Quantum-Enhanced Imaging for Radiation Oncology"
-            talk: true
-            speakers:
-              - name: "Grum Taklemariam"
-          - time: "11:40 – 12:00"
             label: "Radiation Therapy for Cancer: Clinical Workflow and Treatment Delivery"
             talk: true
             speakers:
               - name: "Arezoo Modiri"
+          - time: "11:00 – 11:20"
+            label: "Quantum-Enhanced Imaging for Radiation Oncology"
+            talk: true
+            speakers:
+              - name: "Grum Taklemariam"
+          - time: "11:20 – 11:40"
+            label: "Quantum and Quantum-Inspired Approaches for Treatment Planning Optimization"
+            talk: true
+            speakers:
+              - name: "Daryl Nazareth"
+          - time: "11:40 – 12:00"
+            label: "Quantum and Quantum-Inspired Approaches for Workflow Optimization in Radiation Oncology Department"
+            talk: true
+            speakers:
+              - name: "Akira SaiToh"
       - items:
           - time: "12:00 – 12:30"
             label: "Lunch"

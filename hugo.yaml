@@ -29,11 +29,6 @@ languages:
           pageRef: /sponsors
           weight: 20
 
-        - identifier: speakers
-          name: Speakers
-          pageRef: /speakers
-          weight: 30
-
         - identifier: program
           name: Program
           pageRef: /program
@@ -102,9 +97,8 @@ languages:
           # QTPO 2026 speakers are invited directly by the organizing
           # committee — there is no open registration. Clicking the
           # "I'm Interested in Attending" button (header, hero, sidebar,
-          # speakers page, etc.) opens a popup with the guest-interest
-          # form instead of navigating — see #attend-modal in
-          # layouts/_default/baseof.html.
+          # etc.) opens a popup with the guest-interest form instead of
+          # navigating — see #attend-modal in layouts/_default/baseof.html.
           callToAction:
             other:
               url: "#attend-modal"
