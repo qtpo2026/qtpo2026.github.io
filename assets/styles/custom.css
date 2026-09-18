@@ -1,3 +1,10 @@
+/* Crop non-square headshots cleanly instead of letting the browser stretch
+   them to fill the circle (the theme's default has no object-fit at all). */
+.speaker-card__avatar {
+    object-fit: cover;
+    object-position: center top;
+}
+
 /* Nudge the hero title down from the top of the cover image. */
 .event-title-section .event-title-section__header {
     margin-top: 3.5rem;
