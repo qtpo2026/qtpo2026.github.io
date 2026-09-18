@@ -19,6 +19,7 @@ days:
             speakers:
               - name: "Karl Steiner"
                 url: "https://research.umbc.edu/steiner/"
+                affiliation: "University of Maryland, Baltimore County (UMBC)"
           - time: "9:15 – 9:25"
             label: "Healthcare, Medicine, and Emerging Technologies"
             talk: true
@@ -27,6 +28,7 @@ days:
             talk: true
             speakers:
               - name: "Mitsuho Imai"
+                affiliation: "National Cancer Center Hospital East, Japan"
           - time: "9:55 – 10:25"
             label: "Keynote Talk"
             talk: true
@@ -43,21 +45,25 @@ days:
             talk: true
             speakers:
               - name: "Arezoo Modiri"
+                affiliation: "University of Maryland, Baltimore — School of Medicine"
           - time: "11:00 – 11:20"
             label: "Quantum-Enhanced Imaging for Radiation Oncology"
             talk: true
             speakers:
               - name: "Grum Taklemariam"
+                affiliation: "gSpin"
           - time: "11:20 – 11:40"
             label: "Quantum and Quantum-Inspired Approaches for Treatment Planning Optimization"
             talk: true
             speakers:
               - name: "Daryl Nazareth"
+                affiliation: "Roswell Park"
           - time: "11:40 – 12:00"
             label: "Quantum and Quantum-Inspired Approaches for Workflow Optimization in Radiation Oncology Department"
             talk: true
             speakers:
               - name: "Akira SaiToh"
+                affiliation: "Sojo University"
       - items:
           - time: "12:00 – 12:30"
             label: "Lunch"
@@ -72,9 +78,13 @@ days:
             talk: true
             speakers:
               - name: "Mohammad Mohammadisiahroudi"
+                affiliation: "University of Maryland, Baltimore County (UMBC)"
               - name: "Xiaodi Wu"
+                affiliation: "University of Maryland, College Park"
               - name: "Jiaqi Leng"
+                affiliation: "Virginia Tech"
               - name: "Yuxiang Peng"
+                affiliation: "Purdue University"
           - time: "13:30 – 13:40"
             label: "Networking Break and Light Refreshments"
       - title: "Quantum Hardware and Platforms for Oncology Applications"
@@ -88,17 +98,21 @@ days:
             talk: true
             speakers:
               - name: "Saif Rayyan"
+                affiliation: "Fujitsu"
           - time: "14:00 – 14:20"
             label: "Quantum Computing Inc.: Quantum Technologies and Platforms for Healthcare Applications"
             talk: true
             speakers:
               - name: "Dianat, Wesley & Babak"
+                affiliation: "Quantum Computing Inc. (QCI)"
           - time: "14:20 – 14:40"
             label: "D-Wave: Quantum Annealing for Optimization in Healthcare and Oncology"
             talk: true
             speakers:
               - name: "Ken Robbins"
+                affiliation: "D-Wave"
               - name: "Susan Davis"
+                affiliation: "D-Wave"
           - time: "14:40 – 15:00"
             label: "Quantum Hardware Session"
             talk: true
