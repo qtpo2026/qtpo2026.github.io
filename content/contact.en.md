@@ -9,6 +9,7 @@ sponsorship, or anything else — reach out to the organizing committee.
 
 - **Mohammad Mohammadisiahroudi** — University of Maryland, Baltimore County (UMBC) — [mhms379@umbc.edu](mailto:mhms379@umbc.edu)
 - **Robabeh Rahimi** — Inova Health System — [robabeh.rahimi@inova.org](mailto:robabeh.rahimi@inova.org)
+- **Anish Ghosh** - University of Maryland, Baltimore County (UMBC) - [anishg1@umbc.edu](mailto:anishg1@umbc.edu)
 
 
 See the [Organizers](/organizers) page for the full committee, and the

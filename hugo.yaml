@@ -186,7 +186,7 @@ languages:
           # "Workshop Coordination" tier below the committee.
           workshopCoordination:
             - name: "Anish Ghosh"
-              role: "Student Organizer and Workshop Coordinator"
+              role: "Student Organizer"
               affiliation: "University of Maryland, Baltimore County (UMBC)"
               photo: headshots/anish-ghosh.jpg
               url:
