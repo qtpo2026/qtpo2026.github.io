@@ -161,6 +161,13 @@ days:
         items:
           - time: "17:30"
             label: "Shuttle Bus Departure for Facility Visit"
+          - time: ""
+            label: "Welcome and Introduction"
+            talk: true
+            speakers:
+              - name: "James Fan"
+                url: "https://www.inova.org/our-services/inova-department-of-advanced-radiation-oncology-and-proton-therapy/physics-dosimetry"
+                affiliation: "Director, System Chief of Medical Physics, Inova Schar Cancer"
   - label: "Day 2"
     date: "Friday, November 6, 2026"
     format: "In person"
