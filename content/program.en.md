@@ -195,7 +195,7 @@ days:
               - name: "Nimita Shinde"
                 affiliation: "UT Southwestern"
           - time: "9:15 – 9:30"
-            label: "Randomized Truncation and Topology-Aware Sparsification for Hybrid Quantum-Classical Cancer Biomarker Feature Selection Algorithms"
+            label: "Randomized Truncation and Topology-Aware Sparsification for Quantum-Classical Feature Selection"
             talk: true
             speakers:
               - name: "Dhirpal Shah"
