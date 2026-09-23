@@ -206,20 +206,15 @@ days:
           - time: "9:45 – 10:00"
             label: "Talk"
             talk: true
+          - time: "10:00 – 10:15"
+            label: "Networking Break and Light Refreshments"
       - title: "Panels and Community Discussion"
         description: |
           The second day is devoted to in-depth panel discussions on scientific
           challenges, clinical needs, technological opportunities, and future
           directions for quantum technologies in precision oncology.
         items:
-          - time: "9:00 – 9:10"
-            label: "Opening"
-          - time: "9:10 – 10:00"
-            label: "Panel Discussion and Round table"
-            talk: true
-          - time: "10:00 – 10:10"
-            label: "Networking Break and Light Refreshments"
-          - time: "10:10 – 11:00"
+          - time: "10:15 – 11:00"
             label: "Panel Discussion and Round table"
             talk: true
           - time: "11:00 – 12:30"
