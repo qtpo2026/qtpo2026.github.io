@@ -103,7 +103,7 @@ days:
             label: "Quantum Computing Inc.: Quantum Technologies and Platforms for Healthcare Applications"
             talk: true
             speakers:
-              - name: "Dianat, Wesley & Babak"
+              - name: "Wesley"
                 affiliation: "Quantum Computing Inc. (QCI)"
           - time: "14:20 – 14:40"
             label: "D-Wave: Quantum Annealing for Optimization in Healthcare and Oncology"
@@ -130,15 +130,27 @@ days:
           - time: "15:30 – 15:50"
             label: "Application Talk"
             talk: true
+            speakers:
+              - name: "Tamas Terlaky"
+                affiliation: "Lehigh University"
           - time: "15:50 – 16:10"
-            label: "Application Talk"
+            label: "Zapata: Quantum-Inspired Computing for Healthcare and Oncology Applications"
             talk: true
+            speakers:
+              - name: "Yudong Cao"
+                affiliation: "Zapata AI"
           - time: "16:10 – 16:30"
             label: "Application Talk"
             talk: true
+            speakers:
+              - name: "Michele Dougherty"
+                affiliation: "Mayo Clinic"
           - time: "16:30 – 16:50"
             label: "Application Talk"
             talk: true
+            speakers:
+              - name: "Babak"
+                affiliation: "Quantum Computing Inc. (QCI)"
           - time: "16:50 – 17:00"
             label: "Networking Break and Light Refreshments"
       - title: "International Collaboration and Research Opportunities Panel"
@@ -177,11 +189,17 @@ days:
           
         items:
           - time: "9:00 – 9:15"
-            label: "Talk"
+            label: "Quantum-Inspired Optimization for Beam Angle Selection in Radiation Therapy"
             talk: true
+            speakers:
+              - name: "Nimita Shinde"
+                affiliation: "UT Southwestern"
           - time: "9:15 – 9:30"
-            label: "Talk"
+            label: "Randomized Truncation and Topology-Aware Sparsification for Hybrid Quantum-Classical Cancer Biomarker Feature Selection Algorithms"
             talk: true
+            speakers:
+              - name: "Dhirpal Shah"
+                affiliation: "University of Chicago"
           - time: "9:30 – 9:45"
             label: "Talk"
             talk: true
