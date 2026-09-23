@@ -149,7 +149,7 @@ days:
             label: "Application Talk"
             talk: true
             speakers:
-              - name: "Babak"
+              - name: "Babak Emami"
                 affiliation: "Quantum Computing Inc. (QCI)"
           - time: "16:50 – 17:00"
             label: "Networking Break and Light Refreshments"
