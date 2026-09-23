@@ -143,8 +143,8 @@ days:
             label: "Application Talk"
             talk: true
             speakers:
-              - name: "Michele Dougherty"
-                affiliation: "Mayo Clinic"
+              - name: "TBD"
+                affiliation: "TBD"
           - time: "16:30 – 16:50"
             label: "Application Talk"
             talk: true
