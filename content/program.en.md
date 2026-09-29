@@ -14,23 +14,28 @@ days:
         items:
           - time: "9:00 – 9:05"
             label: "Welcome"
-          - time: "9:05 – 9:15"
+          - time: "9:05 – 9:25"
             label: "Opening Remarks"
             speakers:
-              - name: "Karl Steiner"
+              - name: "Karl Steiner PhD"
                 url: "https://research.umbc.edu/steiner/"
                 affiliation: "University of Maryland, Baltimore County (UMBC)"
-          - time: "9:15 – 9:25"
-            label: "Healthcare, Medicine, and Emerging Technologies"
-            talk: true
+              - name:  "Penny Gordon-Larsen PhD"
+                affiliation: "UNC Chapel Hill"
+                talk: true
+              - name: "Gopal K. Bajaj MD, MBA, FASTRO"
+                affiliation: "Inova Schar Cancer Institute"
           - time: "9:25 – 9:55"
             label: "Quantum Technologies for Precision Oncology: Opportunities and Challenges from a Clinical Perspective"
             talk: true
             speakers:
-              - name: "Mitsuho Imai"
+              - name: "Mitsuho Imai PhD"
                 affiliation: "National Cancer Center Hospital East, Japan"
           - time: "9:55 – 10:25"
             label: "Keynote Talk"
+            speakers:
+            - name: "Chris Beltran PhD"
+              affiliation: "Mayo Clinic"
             talk: true
           - time: "10:25 – 10:40"
             label: "Networking Break and Light Refreshments"
