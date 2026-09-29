@@ -27,9 +27,10 @@ days:
                 affiliation: "Inova Schar Cancer Institute"
           - time: "9:20-9:30"
             label: "Keynote Talk"
-            talk: true
-            speakers: "Nobert Linke PhD"
-            affiliation: "Quantum National Lab,UMD"
+            speakers: 
+            - name: "Nobert Linke PhD"
+              affiliation: "Quantum National Lab,UMD"
+              talk: true
             
           - time: "9:30 – 10:00"
             label: "Quantum Technologies for Precision Oncology: Opportunities and Challenges from a Clinical Perspective"
