@@ -65,7 +65,7 @@ days:
               - name: "Grum Taklemariam"
                 affiliation: "gSpin"
           - time: "11:20 – 11:40"
-            label: "Quantum and Quantum-Inspired Approaches for Treatment Planning Optimization"
+            label: "Practical Demo Of Quantum-Inspired Treatment Planning For Radiation Therapy"
             talk: true
             speakers:
               - name: "Daryl Nazareth"
@@ -115,22 +115,22 @@ days:
             label: "Quantum Computing Inc.: Quantum Technologies and Platforms for Healthcare Applications"
             talk: true
             speakers:
-              - name: "Wesley"
+              - name: "Wesley Dyk PhD"
                 affiliation: "Quantum Computing Inc. (QCI)"
           - time: "14:20 – 14:40"
             label: "D-Wave: Quantum Annealing for Optimization in Healthcare and Oncology"
             talk: true
             speakers:
-              - name: "Ken Robbins"
-                affiliation: "D-Wave"
-              - name: "Susan Davis"
+              - name: "Brian Major PhD"
                 affiliation: "D-Wave"
           - time: "14:40 – 15:00"
             label: "Quantum Hardware Session"
             talk: true
+          - name: "TBD"
           - time: "15:00 – 15:20"
             label: "Quantum Hardware Session"
             talk: true
+          - name: "TBD"
           - time: "15:20 – 15:30"
             label: "Networking Break and Light Refreshments"
       - title: "Applications and Case Studies in Radiation Oncology"
@@ -156,7 +156,7 @@ days:
             talk: true
             speakers:
               - name: "TBD"
-                affiliation: "TBD"
+                affiliation: "Nvision"
           - time: "16:30 – 16:50"
             label: "Application Talk"
             talk: true
