@@ -25,20 +25,25 @@ days:
                 talk: true
               - name: "Gopal K. Bajaj MD, MBA, FASTRO"
                 affiliation: "Inova Schar Cancer Institute"
-          - time
-          - time: "9:25 – 9:55"
+          - time: "9:20-9:30"
+            label: "Keynote Talk"
+            talk: true
+            speakers: "Nobert Linke PhD"
+            affiliation: "Quantum National Lab,UMD"
+            
+          - time: "9:30 – 10:00"
             label: "Quantum Technologies for Precision Oncology: Opportunities and Challenges from a Clinical Perspective"
             talk: true
             speakers:
               - name: "Mitsuho Imai PhD"
                 affiliation: "National Cancer Center Hospital East, Japan"
-          - time: "9:55 – 10:25"
+          - time: "10:00 – 10:30"
             label: "Keynote Talk"
             speakers:
             - name: "Chris Beltran PhD"
               affiliation: "Mayo Clinic"
             talk: true
-          - time: "10:25 – 10:40"
+          - time: "10:30 – 10:40"
             label: "Networking Break and Light Refreshments"
       - title: "Quantum Computing in Radiation Oncology"
         description: |
