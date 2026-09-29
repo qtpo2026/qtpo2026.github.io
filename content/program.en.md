@@ -14,7 +14,7 @@ days:
         items:
           - time: "9:00 – 9:05"
             label: "Welcome"
-          - time: "9:05 – 9:25"
+          - time: "9:05 – 9:20"
             label: "Opening Remarks"
             speakers:
               - name: "Karl Steiner PhD"
@@ -25,6 +25,7 @@ days:
                 talk: true
               - name: "Gopal K. Bajaj MD, MBA, FASTRO"
                 affiliation: "Inova Schar Cancer Institute"
+          - time
           - time: "9:25 – 9:55"
             label: "Quantum Technologies for Precision Oncology: Opportunities and Challenges from a Clinical Perspective"
             talk: true
