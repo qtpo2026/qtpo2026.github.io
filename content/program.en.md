@@ -126,11 +126,13 @@ days:
           - time: "14:40 – 15:00"
             label: "Quantum Hardware Session"
             talk: true
-          - name: "TBD"
+            speakers:
+            - name: "TBD"
           - time: "15:00 – 15:20"
             label: "Quantum Hardware Session"
             talk: true
-          - name: "TBD"
+            speakers: 
+            - name: "TBD"
           - time: "15:20 – 15:30"
             label: "Networking Break and Light Refreshments"
       - title: "Applications and Case Studies in Radiation Oncology"
