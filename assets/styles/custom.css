@@ -1,20 +1,37 @@
 /* Crop non-square headshots cleanly instead of letting the browser stretch
-   them to fill the circle (the theme's default has no object-fit at all). */
+   them to fill the circle (the theme's default has no object-fit at all).
+   Portrait photos need ~33% of their height cropped to fill a square; an
+   anchor of "top" was cropping entirely from the bottom, which chops into
+   chins/beards on tightly-framed headshots. 25% down skips past the usual
+   blank headroom above the head and leaves the rest of the crop for the
+   shoulders/chest below, based on checking actual crop regions on file. */
 .speaker-card__avatar {
     object-fit: cover;
-    object-position: center top;
+    object-position: center 25%;
 }
 
 /* The theme's card/description heights only fit a 2-line affiliation and
    hard-clip anything longer (no ellipsis) — e.g. "University of Maryland,
    Baltimore — School of Medicine" loses its last line entirely. Give every
-   card a bit more room, uniformly, so long affiliations aren't cut off. */
+   card a bit more room, uniformly, so long affiliations aren't cut off.
+   Also bigger avatar circle, name pushed down a bit and set smaller. */
 .speaker-card {
-    height: 21.3125rem;
+    height: 23.5rem;
+}
+
+.speaker-card__avatar {
+    width: 11rem;
+    height: 11rem;
+}
+
+.speaker-card__link > .heading {
+    margin-top: 0.25rem;
+    font-size: 1.0625rem;
 }
 
 .speaker-card__description {
     height: 4.125rem;
+    font-size: 0.9375rem;
 }
 
 /* Nudge the hero title down from the top of the cover image. */
