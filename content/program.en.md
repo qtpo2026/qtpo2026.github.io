@@ -69,7 +69,7 @@ days:
             talk: true
             speakers:
               - name: "Daryl Nazareth"
-                affiliation: "Roswell Park"
+                affiliation: "Roswell Park Comprehensive Cancer Center"
           - time: "11:40 – 12:00"
             label: "Quantum and Quantum-Inspired Approaches for Workflow Optimization in Radiation Oncology Department"
             talk: true
@@ -231,6 +231,13 @@ days:
           - time: "10:15 – 11:00"
             label: "Panel Discussion and Round table"
             talk: true
+            speakers:
+              - name: "Ceferino Obcemea, PhD"
+                affiliation: "NIH/NCI"
+              - name: "TBD"
+              - name: "TBD"
+              - name: "TBD"
+              - name: "TBD"
           - time: "11:00 – 12:30"
             label: "Lunch and Adjourn"
 ---
