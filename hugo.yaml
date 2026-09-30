@@ -152,6 +152,10 @@ languages:
               lead: true
               photo: headshots/xiaodi-wu.jpeg
               url:
+            - name: "Tamás Terlaky, PhD"
+              affiliation: "Lehigh University"
+              photo: headshots/tamas-terlaky.jpg
+              url:
             - name: "Arezoo Modiri, PhD"
               affiliation: "University of Maryland, Baltimore — School of Medicine"
               photo: headshots/arezoo-modiri.jpg
@@ -179,10 +183,6 @@ languages:
             - name: "Karl V. Steiner, PhD"
               affiliation: "University of Maryland, Baltimore County (UMBC)"
               photo: headshots/karl-v-steiner.jpg
-              url:
-            - name: "Tamás Terlaky, PhD"
-              affiliation: "Lehigh University"
-              photo: headshots/tamas-terlaky.jpg
               url:
 
           # Custom field (not a built-in theme param) consumed by
