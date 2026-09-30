@@ -205,11 +205,18 @@
 }
 
 .program-item__speakers {
+    all: unset;
+    display: flex;
+    flex-direction: column;
     flex-basis: 100%;
     margin-left: 9rem;
     font-size: 0.875rem;
     font-style: italic;
     color: var(--color-secondary-darker);
+}
+
+.program-item__speakers li {
+    list-style: none;
 }
 
 .program-item__speakers a {

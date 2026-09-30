@@ -56,13 +56,15 @@
                                                     <span class="program-item__time">{{ .time }}</span>
                                                     <span class="program-item__label">{{ .label }}</span>
                                                     {{ with .speakers }}
-                                                        <span class="program-item__speakers">
-                                                            {{ range $i, $s := . }}
-                                                                {{ if gt $i 0 }}, {{ end }}
-                                                                {{ if $s.url }}<a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer external">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}
-                                                                {{ with $s.affiliation }} ({{ . }}){{ end }}
+                                                        <ul class="program-item__speakers">
+                                                            {{ range . }}
+                                                                {{ $name := .name }}
+                                                                {{ if .url }}
+                                                                    {{ $name = printf `<a href="%s" target="_blank" rel="noopener noreferrer external">%s</a>` .url .name | safeHTML }}
+                                                                {{ end }}
+                                                                <li>{{ $name }}{{ with .affiliation }} ({{ . }}){{ end }}</li>
                                                             {{ end }}
-                                                        </span>
+                                                        </ul>
                                                     {{ end }}
                                                 </li>
                                             {{ end }}

@@ -180,6 +180,10 @@ languages:
               affiliation: "University of Maryland, Baltimore County (UMBC)"
               photo: headshots/karl-v-steiner.jpg
               url:
+            - name: "Tamás Terlaky, PhD"
+              affiliation: "Lehigh University"
+              photo: headshots/tamas-terlaky.jpg
+              url:
 
           # Custom field (not a built-in theme param) consumed by
           # layouts/_default/organizers.html. Rendered as its own
@@ -226,10 +230,9 @@ languages:
             - name: "University of Maryland, College Park"
               logo: logos/sponsors/umd-college-park.png
               url:  https://umd.edu/
-            - name: "University of Maryland School of Medicine"
-              logo: logos/sponsors/umd-school-of-medicine.svg
-              url: https://www.medschool.umaryland.edu/
-            
+            - name: "QLab"
+              logo: logos/sponsors/qlab.svg
+              url:  https://qlab.umd.edu/
             - name: "Fujitsu"
               logo: logos/sponsors/fujitsu.svg
               url: https://global.fujitsu/en-US/local/technology/research
@@ -239,18 +242,18 @@ languages:
             # - name: "Mayo Clinic"
             #   logo: logos/sponsors/mayo-clinic.svg
             #   url: https://www.mayoclinic.org/
-            - name: "Zapata AI"
-              logo: logos/sponsors/zapata.png
-              url: https://zapataquantum.com/
-            - name: "QLab"
-              logo: logos/sponsors/qlab.svg
-              url:  https://qlab.umd.edu/
-            - name: "UMBC Quantum Science Institute"
-              logo: logos/sponsors/qsi.png
-              url : https://qsi.umbc.edu/
             - name: "Quantum Computing Inc"
               logo: logos/sponsors/qci.jpg
               url : https://quantumcomputinginc.com/
+            - name: "University of Maryland School of Medicine"
+              logo: logos/sponsors/umd-school-of-medicine.svg
+              url: https://www.medschool.umaryland.edu/
+            - name: "UMBC Quantum Science Institute"
+              logo: logos/sponsors/qsi.png
+              url : https://qsi.umbc.edu/
+            - name: "Zapata AI"
+              logo: logos/sponsors/zapata.png
+              url: https://zapataquantum.com/
 
 
 
