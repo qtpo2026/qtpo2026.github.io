@@ -65,10 +65,10 @@ days:
               - name: "Grum Taklemariam"
                 affiliation: "gSpin"
           - time: "11:20 – 11:40"
-            label: "Practical Demo Of Quantum-Inspired Treatment Planning For Radiation Therapy"
+            label: "Quantum and Quantum-Inspired Approaches for Treatment Planning Optimization"
             talk: true
             speakers:
-              - name: "Daryl Nazareth"
+              - name: "Daryl Nazareth PhD"
                 affiliation: "Roswell Park Comprehensive Cancer Center"
           - time: "11:40 – 12:00"
             label: "Quantum and Quantum-Inspired Approaches for Workflow Optimization in Radiation Oncology Department"
@@ -86,7 +86,7 @@ days:
           related optimization methods.
         items:
           - time: "12:30 – 13:30"
-            label: "Quantum Heuristic Decomposition and Practical Demo"
+            label: "Practical Demo Of Quantum-Inspired Treatment Planning For Radiation Therapy"
             talk: true
             speakers:
               - name: "Mohammad Mohammadisiahroudi"
@@ -97,41 +97,46 @@ days:
                 affiliation: "Virginia Tech"
               - name: "Yuxiang Peng"
                 affiliation: "Purdue University"
+              - name: "Jennifer Wei Zou PhD"
+                affiliation: "UPenn"
           - time: "13:30 – 13:40"
             label: "Networking Break and Light Refreshments"
+      - title: "The Future of Quantum Technologies in Biomedical Research"
+        items:
+          - time: "13:40 – 14:00"
+            label: "Keynote Talk"
+            talk: true
+            speakers:
+              - name: "Afrouz Azari Anderson PhD"
+                affiliation: "Program Director, Division of Applied Science & Technology (Biomedical Imaging), National Institute of Biomedical Imaging and Bioengineering (NIBIB), NIH"
       - title: "Quantum Hardware and Platforms for Oncology Applications"
         description: |
           This session provides an overview of current quantum computing platforms and
           hardware approaches relevant to healthcare and oncology applications,
           including optimization and computational workflows.
         items:
-          - time: "13:40 – 14:00"
+          - time: "14:00 – 14:20"
             label: "Fujitsu: Quantum and Quantum-Inspired Platforms for Healthcare Applications"
             talk: true
             speakers:
               - name: "Saif Rayyan"
                 affiliation: "Fujitsu"
-          - time: "14:00 – 14:20"
+          - time: "14:20 – 14:40"
             label: "Quantum Computing Inc.: Quantum Technologies and Platforms for Healthcare Applications"
             talk: true
             speakers:
               - name: "Wesley Dyk PhD"
                 affiliation: "Quantum Computing Inc. (QCI)"
-          - time: "14:20 – 14:40"
+          - time: "14:40 – 15:00"
             label: "D-Wave: Quantum Annealing for Optimization in Healthcare and Oncology"
             talk: true
             speakers:
               - name: "Brian Major PhD"
                 affiliation: "D-Wave"
-          - time: "14:40 – 15:00"
-            label: "Quantum Hardware Session"
-            talk: true
-            speakers:
-            - name: "TBD"
           - time: "15:00 – 15:20"
             label: "Quantum Hardware Session"
             talk: true
-            speakers: 
+            speakers:
             - name: "TBD"
           - time: "15:20 – 15:30"
             label: "Networking Break and Light Refreshments"
@@ -179,6 +184,8 @@ days:
             speakers:
               - name: "Samiul (JSPS)"
               - name: "Naomi (JSPS)"
+              - name: "Takeshi Usami (Director of JST Washington, D.C. Office)"
+              - name: "Jun Sugihara (Deputy director of AMED Washington D.C. Office)"
       - title: "Facility Visit"
         description: |
           Participants will travel to a cancer treatment facility for a guided visit,
@@ -228,14 +235,22 @@ days:
           challenges, clinical needs, technological opportunities, and future
           directions for quantum technologies in precision oncology.
         items:
-          - time: "10:15 – 11:00"
-            label: "Panel Discussion and Round table"
+          - time: "10:15 – 10:40"
+            label: "Panel 1: Funding Supports for Quantum Computing for Biomedical Applications"
             talk: true
             speakers:
               - name: "Ceferino Obcemea, PhD"
                 affiliation: "NIH/NCI"
-              - name: "TBD"
-              - name: "TBD"
+              - name: "Afrouz Azari Anderson, PhD"
+                affiliation: "NIH"
+              - name: "Masafumi Sato"
+                affiliation: "Director of AMED Washington, D.C. Office"
+          - time: "10:40 – 11:00"
+            label: "Panel 2: Quantum Ecosystem and application for cancer treatment"
+            talk: true
+            speakers:
+              - name: "Antonio Paes, PhD"
+                affiliation: "D-Wave"
               - name: "TBD"
               - name: "TBD"
           - time: "11:00 – 12:30"
