@@ -56,13 +56,13 @@ days:
             label: "Radiation Therapy for Cancer: Clinical Workflow and Treatment Delivery"
             talk: true
             speakers:
-              - name: "Arezoo Modiri"
+              - name: "Arezoo Modiri PhD"
                 affiliation: "University of Maryland, Baltimore — School of Medicine"
           - time: "11:00 – 11:20"
             label: "Quantum-Enhanced Imaging for Radiation Oncology"
             talk: true
             speakers:
-              - name: "Grum Taklemariam"
+              - name: "Grum Taklemariam PhD"
                 affiliation: "gSpin"
           - time: "11:20 – 11:40"
             label: "Quantum and Quantum-Inspired Approaches for Treatment Planning Optimization"
@@ -74,7 +74,7 @@ days:
             label: "Quantum and Quantum-Inspired Approaches for Workflow Optimization in Radiation Oncology Department"
             talk: true
             speakers:
-              - name: "Akira SaiToh"
+              - name: "Akira SaiToh PhD"
                 affiliation: "Sojo University"
       - items:
           - time: "12:00 – 12:30"
@@ -89,13 +89,13 @@ days:
             label: "Practical Demo Of Quantum-Inspired Treatment Planning For Radiation Therapy"
             talk: true
             speakers:
-              - name: "Mohammad Mohammadisiahroudi"
+              - name: "Mohammad Mohammadisiahroudi PhD"
                 affiliation: "University of Maryland, Baltimore County (UMBC)"
-              - name: "Xiaodi Wu"
+              - name: "Xiaodi Wu PhD"
                 affiliation: "University of Maryland, College Park"
-              - name: "Jiaqi Leng"
+              - name: "Jiaqi Leng PhD"
                 affiliation: "Virginia Tech"
-              - name: "Yuxiang Peng"
+              - name: "Yuxiang Peng PhD"
                 affiliation: "Purdue University"
               - name: "Jennifer Wei Zou PhD"
                 affiliation: "UPenn"
@@ -119,7 +119,7 @@ days:
             label: "Fujitsu: Quantum and Quantum-Inspired Platforms for Healthcare Applications"
             talk: true
             speakers:
-              - name: "Saif Rayyan"
+              - name: "Saif Rayyan PhD"
                 affiliation: "Fujitsu"
           - time: "14:20 – 14:40"
             label: "Quantum Computing Inc.: Quantum Technologies and Platforms for Healthcare Applications"
@@ -150,13 +150,13 @@ days:
             label: "Application Talk"
             talk: true
             speakers:
-              - name: "Tamas Terlaky"
+              - name: "Tamas Terlaky PhD"
                 affiliation: "Lehigh University"
           - time: "15:50 – 16:10"
             label: "Zapata: Quantum-Inspired Computing for Healthcare and Oncology Applications"
             talk: true
             speakers:
-              - name: "Yudong Cao"
+              - name: "Yudong Cao PhD"
                 affiliation: "Zapata AI"
           - time: "16:10 – 16:30"
             label: "Application Talk"
@@ -168,7 +168,7 @@ days:
             label: "Application of Entropy Quantum Computing in Proton Radiation Therapy"
             talk: true
             speakers:
-              - name: "Babak Emami"
+              - name: "Babak Emami PhD"
                 affiliation: "Quantum Computing Inc. (QCI)"
           - time: "16:50 – 17:00"
             label: "Networking Break and Light Refreshments"
@@ -182,10 +182,10 @@ days:
             label: "International Collaboration Panel"
             talk: true
             speakers:
-              - name: "Mohammad Alam (JSPS Alumni Association Capital Chapter)"
-              - name: "Naoru Koizumi (JSPS Alumni Association Capital Chapter)"
-              - name: "Takeshi Usami (Director of JST Washington, D.C. Office)"
-              - name: "Jun Sugihara (Deputy director of AMED Washington D.C. Office)"
+              - name: "Mohammad Alam PhD (JSPS Alumni Association Capital Chapter)"
+              - name: "Naoru Koizumi PhD (JSPS Alumni Association Capital Chapter)"
+              - name: "Takeshi Usami PhD (Director of JST Washington, D.C. Office)"
+              - name: "Jun Sugihara PhD (Deputy director of AMED Washington D.C. Office)"
       - title: "Facility Visit"
         description: |
           Participants will travel to a cancer treatment facility for a guided visit,
@@ -198,7 +198,7 @@ days:
             label: "Welcome and Introduction"
             talk: true
             speakers:
-              - name: "James Fan"
+              - name: "James Fan PhD"
                 url: "https://www.inova.org/our-services/inova-department-of-advanced-radiation-oncology-and-proton-therapy/physics-dosimetry"
                 affiliation: "Director, System Chief of Medical Physics, Inova Schar Cancer"
   - label: "Day 2"
@@ -213,7 +213,7 @@ days:
             label: "Quantum-Inspired Optimization for Beam Angle Selection in Radiation Therapy"
             talk: true
             speakers:
-              - name: "Nimita Shinde"
+              - name: "Nimita Shinde PhD"
                 affiliation: "UT Southwestern"
           - time: "9:15 – 9:30"
             label: "Randomized Truncation and Topology-Aware Sparsification for Quantum-Classical Feature Selection"
@@ -243,12 +243,12 @@ days:
                 affiliation: "Program Director of NCI"
               - name: "Afrouz Azari Anderson, PhD"
                 affiliation: "Program Director of NIH"
-              - name: "Masafumi Sato"
+              - name: "Masafumi Sato PhD"
                 affiliation: "Director of AMED Washington, D.C. Office"
           - time: "10:35 – 10:40"
             label: "Networking Break and Light Refreshments"
           - time: "10:40 – 11:00"
-            label: "Panel 2: Quantum Ecosystem and application for cancer treatment"
+            label: "Panel 2: Quantum Ecosystem and Application for Cancer Treatment"
             talk: true
             speakers:
               - name: "Antonio Paes, PhD"
