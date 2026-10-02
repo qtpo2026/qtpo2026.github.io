@@ -532,6 +532,11 @@
     color: var(--color-secondary-darker);
 }
 
+.attend-modal__body .attend-modal__deadline {
+    font-weight: 700;
+    color: var(--color-primary-darkest);
+}
+
 .attend-modal__iframe {
     display: block;
     margin-top: 1.25rem;

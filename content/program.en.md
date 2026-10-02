@@ -182,10 +182,10 @@ days:
             label: "International Collaboration Panel"
             talk: true
             speakers:
-              - name: "Mohammad Alam PhD (JSPS Alumni Association Capital Chapter)"
-              - name: "Naoru Koizumi PhD (JSPS Alumni Association Capital Chapter)"
-              - name: "Takeshi Usami PhD (Director of JST Washington, D.C. Office)"
-              - name: "Jun Sugihara PhD (Deputy director of AMED Washington D.C. Office)"
+              - name: "Mohammad Alam (JSPS Alumni Association Capital Chapter)"
+              - name: "Naoru Koizumi (JSPS Alumni Association Capital Chapter)"
+              - name: "Takeshi Usami (Director of JST Washington, D.C. Office)"
+              - name: "Jun Sugihara (Deputy director of AMED Washington D.C. Office)"
       - title: "Facility Visit"
         description: |
           Participants will travel to a cancer treatment facility for a guided visit,
