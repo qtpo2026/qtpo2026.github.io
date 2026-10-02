@@ -182,8 +182,8 @@ days:
             label: "International Collaboration Panel"
             talk: true
             speakers:
-              - name: "Mohammad Ala (JSPS)"
-              - name: "Naoru Koizumi (JSPS)"
+              - name: "Mohammad Ala (JSPS Alumni Association Capital Chapter)"
+              - name: "Naoru Koizumi (JSPS Alumni Association Capital Chapter)"
               - name: "Takeshi Usami (Director of JST Washington, D.C. Office)"
               - name: "Jun Sugihara (Deputy director of AMED Washington D.C. Office)"
       - title: "Facility Visit"
@@ -253,7 +253,8 @@ days:
             speakers:
               - name: "Antonio Paes, PhD"
                 affiliation: "D-Wave"
-              - name: "TBD"
+              - name: "Michelle Reid, Ed.D."
+                affilaition: "Superindent Fairfax County Public Schools"
               - name: "TBD"
           - time: "11:00 – 12:30"
             label: "Lunch and Adjourn"
