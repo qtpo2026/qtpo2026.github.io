@@ -182,8 +182,8 @@ days:
             label: "International Collaboration Panel"
             talk: true
             speakers:
-              - name: "Samiul (JSPS)"
-              - name: "Naomi (JSPS)"
+              - name: "Mohammad Ala (JSPS)"
+              - name: "Naoru Koizumi (JSPS)"
               - name: "Takeshi Usami (Director of JST Washington, D.C. Office)"
               - name: "Jun Sugihara (Deputy director of AMED Washington D.C. Office)"
       - title: "Facility Visit"
@@ -235,16 +235,18 @@ days:
           challenges, clinical needs, technological opportunities, and future
           directions for quantum technologies in precision oncology.
         items:
-          - time: "10:15 – 10:40"
+          - time: "10:15 – 10:35"
             label: "Panel 1: Funding Supports for Quantum Computing for Biomedical Applications"
             talk: true
             speakers:
               - name: "Ceferino Obcemea, PhD"
-                affiliation: "NIH/NCI"
+                affiliation: "Program Director of NCI"
               - name: "Afrouz Azari Anderson, PhD"
-                affiliation: "NIH"
+                affiliation: "Program Director of NIH"
               - name: "Masafumi Sato"
                 affiliation: "Director of AMED Washington, D.C. Office"
+          - time: "10:35 – 10:40"
+            label: "Networking Break and Light Refreshments"
           - time: "10:40 – 11:00"
             label: "Panel 2: Quantum Ecosystem and application for cancer treatment"
             talk: true
