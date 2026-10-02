@@ -54,6 +54,16 @@
     margin-top: 1.5rem;
 }
 
+/* Registration deadline notice under the hero's CTA buttons. */
+.event-title-section__deadline {
+    margin: 0;
+    font-size: 1.0625rem;
+    font-weight: 700;
+    color: #ff4d4d;
+    text-shadow: 0 4px 4px #00000040;
+    text-align: center;
+}
+
 /* Space out the individual <p> tags inside the (now multi-paragraph)
    homepage description block. */
 .event-highlights-section__paragraph p {
