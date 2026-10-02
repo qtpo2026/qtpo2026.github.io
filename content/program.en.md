@@ -36,7 +36,7 @@ days:
             label: "Quantum Technologies for Precision Oncology: Opportunities and Challenges from a Clinical Perspective"
             talk: true
             speakers:
-              - name: "Mitsuho Imai PhD"
+              - name: "Mitsuho Imai MD,PhD"
                 affiliation: "National Cancer Center Hospital East, Japan"
           - time: "10:00 – 10:30"
             label: "Keynote Talk"
@@ -165,7 +165,7 @@ days:
               - name: "TBD"
                 affiliation: "Nvision"
           - time: "16:30 – 16:50"
-            label: "Application Talk"
+            label: "Application of Entropy Quantum Computing in Proton Radiation Therapy"
             talk: true
             speakers:
               - name: "Babak Emami"
@@ -182,7 +182,7 @@ days:
             label: "International Collaboration Panel"
             talk: true
             speakers:
-              - name: "Mohammad Ala (JSPS Alumni Association Capital Chapter)"
+              - name: "Mohammad Alam (JSPS Alumni Association Capital Chapter)"
               - name: "Naoru Koizumi (JSPS Alumni Association Capital Chapter)"
               - name: "Takeshi Usami (Director of JST Washington, D.C. Office)"
               - name: "Jun Sugihara (Deputy director of AMED Washington D.C. Office)"
@@ -254,7 +254,7 @@ days:
               - name: "Antonio Paes, PhD"
                 affiliation: "D-Wave"
               - name: "Michelle Reid, Ed.D."
-                affilaition: "Superindent Fairfax County Public Schools"
+                affiliation: "Superindent Fairfax County Public Schools"
               - name: "TBD"
           - time: "11:00 – 12:30"
             label: "Lunch and Adjourn"
