@@ -254,10 +254,12 @@ days:
               - name: "Antonio Paes, PhD"
                 affiliation: "D-Wave"
               - name: "Michelle Reid, Ed.D."
-                affiliation: "Superindent Fairfax County Public Schools"
+                affiliation: "Superintendent Fairfax County Public Schools"
               - name: "TBD"
-          - time: "11:00 – 12:30"
-            label: "Lunch and Adjourn"
+          - time: "11:00 – 12:00"
+            label: "Lunch"
+          - time: "12:00 – 12:30"
+            label: "Closing Remarks and Adjourn"
 ---
 
 Two days, one question: how do we get quantum computing out of the lab and
