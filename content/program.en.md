@@ -159,10 +159,10 @@ days:
               - name: "Yudong Cao PhD"
                 affiliation: "Zapata AI"
           - time: "16:10 – 16:30"
-            label: "Application Talk"
+            label: "Quantum Enhanced MRI - Technology Stack and Application to Precision Oncology"
             talk: true
             speakers:
-              - name: "TBD"
+              - name: "Paul"
                 affiliation: "Nvision"
           - time: "16:30 – 16:50"
             label: "Application of Entropy Quantum Computing in Proton Radiation Therapy"
