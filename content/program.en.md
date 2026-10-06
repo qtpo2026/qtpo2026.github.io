@@ -39,7 +39,7 @@ days:
               - name: "Mitsuho Imai MD,PhD"
                 affiliation: "National Cancer Center Hospital East, Japan"
           - time: "10:00 – 10:30"
-            label: "Keynote Talk"
+            label: "Intersection of the First Carbon-Ion Radiation Therapy Center In America and Quantum Technologies"
             speakers:
             - name: "Chris Beltran PhD"
               affiliation: "Mayo Clinic"
