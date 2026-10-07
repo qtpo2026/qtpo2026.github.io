@@ -162,7 +162,7 @@ days:
             label: "Quantum Enhanced MRI - Technology Stack and Application to Precision Oncology"
             talk: true
             speakers:
-              - name: "Paul"
+              - name: "Paul Weavers PhD"
                 affiliation: "Nvision"
           - time: "16:30 – 16:50"
             label: "Application of Entropy Quantum Computing in Proton Radiation Therapy"
