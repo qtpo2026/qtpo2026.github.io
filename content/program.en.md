@@ -109,38 +109,38 @@ days:
                 affiliation: "UPenn"
           - time: "13:50 – 14:00"
             label: "Networking Break and Light Refreshments"
-      - title: "Quantum Hardware and Platforms for Oncology Applications"
+      - title: "Quantum Computing: Hardware and Platforms for Healthcare Applications"
         description: |
           This session provides an overview of current quantum computing platforms and
           hardware approaches relevant to healthcare and oncology applications,
           including optimization and computational workflows.
         items:
           - time: "14:00 – 14:20"
+            label: "Quantum Hardware Session"
+            talk: true
+            speakers:
+            - name: "TBD"
+          - time: "14:20 – 14:40"
             label: "Fujitsu: Quantum and Quantum-Inspired Platforms for Healthcare Applications"
             talk: true
             speakers:
               - name: "Saif Rayyan PhD"
                 affiliation: "Fujitsu"
-          - time: "14:20 – 14:40"
+          - time: "14:40 – 15:00"
             label: "Quantum Computing Inc.: Quantum Technologies and Platforms for Healthcare Applications"
             talk: true
             speakers:
               - name: "Wesley Dyk PhD"
                 affiliation: "Quantum Computing Inc. (QCI)"
-          - time: "14:40 – 15:00"
+          - time: "15:00 – 15:20"
             label: "D-Wave: Quantum Annealing for Optimization in Healthcare and Oncology"
             talk: true
             speakers:
               - name: "Brian Major PhD"
                 affiliation: "D-Wave"
-          - time: "15:00 – 15:20"
-            label: "Quantum Hardware Session"
-            talk: true
-            speakers:
-            - name: "TBD"
           - time: "15:20 – 15:30"
             label: "Networking Break and Light Refreshments"
-      - title: "Applications and Case Studies in Radiation Oncology"
+      - title: "Quantum Computing: Case Studies in Health Care Applications"
         description: |
           This session focuses on practical examples and case studies at the
           intersection of quantum computing and radiation oncology, including planning
