@@ -251,15 +251,15 @@ languages:
             - name: "Quantum Computing Inc"
               logo: logos/sponsors/qci.jpg
               url : https://quantumcomputinginc.com/
+            - name: "Zapata AI"
+              logo: logos/sponsors/zapata.png
+              url: https://zapataquantum.com/
             - name: "UMBC Quantum Science Institute"
               logo: logos/sponsors/qsi.png
               url : https://qsi.umbc.edu/
             - name: "University of Maryland School of Medicine"
               logo: logos/sponsors/umd-school-of-medicine.svg
               url: https://www.medschool.umaryland.edu/
-            - name: "Zapata AI"
-              logo: logos/sponsors/zapata.png
-              url: https://zapataquantum.com/
 
 
 
