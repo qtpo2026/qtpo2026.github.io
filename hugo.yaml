@@ -225,14 +225,17 @@ languages:
             - name: "University of Maryland, Baltimore County (UMBC)"
               logo: logos/sponsors/umbc.png
               url: https://umbc.edu/
+            - name: "Inova"
+              logo: logos/sponsors/inova.svg
+              url: https://www.inova.org/
 
           sponsorOrganizations:
             - name: "Japan Society for the Promotion of Science (JSPS)"
               logo: logos/sponsors/jsps.png
               url: https://www.jsps.go.jp/english/
-            - name: "Inova"
-              logo: logos/sponsors/inova.svg
-              url: https://www.inova.org/
+            - name: "QLab"
+              logo: logos/sponsors/qlab.svg
+              url:  https://qlab.umd.edu/
             - name: "University of Maryland, College Park"
               logo: logos/sponsors/umd-college-park.png
               url:  https://umd.edu/
@@ -248,9 +251,6 @@ languages:
             - name: "Quantum Computing Inc"
               logo: logos/sponsors/qci.jpg
               url : https://quantumcomputinginc.com/
-            - name: "QLab"
-              logo: logos/sponsors/qlab.svg
-              url:  https://qlab.umd.edu/
             - name: "UMBC Quantum Science Institute"
               logo: logos/sponsors/qsi.png
               url : https://qsi.umbc.edu/
