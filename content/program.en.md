@@ -245,8 +245,12 @@ days:
             speakers:
               - name: "Ceferino Obcemea, PhD"
                 affiliation: "Program Director of NCI"
+              - name: "Mitsuho Imai MD,PhD"
+                affiliation: "National Cancer Center Hospital East, Japan"
               - name: "Afrouz Azari Anderson, PhD"
                 affiliation: "Program Director of NIH"
+              - name: "TBD"
+                affiliation: "FDA"
           - time: "10:35 – 10:40"
             label: "Networking Break and Light Refreshments"
           - time: "10:40 – 11:00"
