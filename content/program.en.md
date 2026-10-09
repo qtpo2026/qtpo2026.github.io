@@ -182,11 +182,11 @@ days:
             label: "International Collaboration Panel"
             talk: true
             speakers:
+              - name: "Masafumi Sato (Director of AMED Washington D.C. Office)"
+              - name: "Jun Sugihara (Deputy director of AMED Washington D.C. Office)"
+              - name: "Takeshi Usami (Director of JST Washington, D.C. Office)"
               - name: "Mohammad Alam (JSPS Alumni Association Capital Chapter)"
               - name: "Naoru Koizumi (JSPS Alumni Association Capital Chapter)"
-              - name: "Takeshi Usami (Director of JST Washington, D.C. Office)"
-              - name: "Jun Sugihara (Deputy director of AMED Washington D.C. Office)"
-              - name: "Masafumi Sato (Director of AMED Washington D.C. Office)"
       - title: "Facility Visit"
         description: |
           Participants will travel to a cancer treatment facility for a guided visit,
@@ -262,9 +262,9 @@ days:
               - name: "Michelle Reid, Ed.D."
                 affiliation: "Superintendent Fairfax County Public Schools"
               - name: "TBD"
-          - time: "11:00 – 12:00"
+          - time: "11:00 – 11:30"
             label: "Lunch"
-          - time: "12:00 – 12:30"
+          - time: "11:30 – 12:00"
             label: "Closing Remarks and Adjourn"
 ---
 
