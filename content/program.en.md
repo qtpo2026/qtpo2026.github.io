@@ -186,6 +186,7 @@ days:
               - name: "Naoru Koizumi (JSPS Alumni Association Capital Chapter)"
               - name: "Takeshi Usami (Director of JST Washington, D.C. Office)"
               - name: "Jun Sugihara (Deputy director of AMED Washington D.C. Office)"
+              - name: "Masafumi Sato (Director of AMED Washington D.C. Office)"
       - title: "Facility Visit"
         description: |
           Participants will travel to a cancer treatment facility for a guided visit,
@@ -210,23 +211,26 @@ days:
           
         items:
           - time: "9:00 – 9:15"
+            label: "Talk"
+            talk: true
+          - time: "9:15 – 9:30"
+            label: "Quantum-Inspired Optimization and Adaptive Decision Support for Radiation Therapy Treatment Planning"
+            talk: true
+            speakers:
+              - name: "Julia Pakela PhD"
+                affiliation: "Ohio State University"
+          - time: "9:30 – 9:45"
             label: "Quantum-Inspired Optimization for Beam Angle Selection in Radiation Therapy"
             talk: true
             speakers:
               - name: "Nimita Shinde PhD"
                 affiliation: "UT Southwestern"
-          - time: "9:15 – 9:30"
+          - time: "9:45 – 10:00"
             label: "Randomized Truncation and Topology-Aware Sparsification for Quantum-Classical Feature Selection"
             talk: true
             speakers:
               - name: "Dhirpal Shah"
                 affiliation: "University of Chicago"
-          - time: "9:30 – 9:45"
-            label: "Talk"
-            talk: true
-          - time: "9:45 – 10:00"
-            label: "Talk"
-            talk: true
           - time: "10:00 – 10:15"
             label: "Networking Break and Light Refreshments"
       - title: "Panels and Community Discussion"
