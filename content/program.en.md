@@ -6,7 +6,7 @@ days:
     date: "Thursday, November 5, 2026"
     format: "Hybrid — in person and online"
     sessions:
-      - title: "Welcome and Quantum Computing in Oncology"
+      - title: "Welcome and Quantum Computing in Cancer Treatment"
         description: |
           This opening session introduces the goals of the workshop and provides a broad
           overview of the role of quantum and quantum-inspired technologies in oncology,
@@ -14,25 +14,25 @@ days:
         items:
           - time: "9:00 – 9:05"
             label: "Welcome"
-          - time: "9:05 – 9:20"
+          - time: "9:05 – 9:15"
             label: "Opening Remarks"
             speakers:
               - name: "Karl Steiner PhD"
                 url: "https://research.umbc.edu/steiner/"
                 affiliation: "University of Maryland, Baltimore County (UMBC)"
-              - name:  "Penny Gordon-Larsen PhD"
-                affiliation: "UNC Chapel Hill"
-                talk: true
+              # - name:  "Penny Gordon-Larsen PhD"
+              #   affiliation: "UNC Chapel Hill"
+              #   talk: true
               - name: "Gopal K. Bajaj MD, MBA, FASTRO"
                 affiliation: "Inova Schar Cancer Institute"
-          - time: "9:20-9:30"
+          - time: "9:15-9:35"
             label: "Keynote Talk"
             speakers: 
             - name: "Nobert Linke PhD"
               affiliation: "Quantum National Lab,UMD"
               talk: true
             
-          - time: "9:30 – 10:00"
+          - time: "9:35 – 10:00"
             label: "Quantum Technologies for Precision Oncology: Opportunities and Challenges from a Clinical Perspective"
             talk: true
             speakers:

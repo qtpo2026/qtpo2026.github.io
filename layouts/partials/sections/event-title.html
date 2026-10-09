@@ -18,6 +18,11 @@
                 {{- . }}
             </p>
         {{- end }}
+        {{- with $input.endorsement }}
+            <p class="event-title-section__endorsement">
+                {{- . }}
+            </p>
+        {{- end }}
         <h2 class="event-title-section__subheading">
             {{- with $input.startDate }}
                 {{- $start := . | time.AsTime }}

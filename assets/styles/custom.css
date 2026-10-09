@@ -54,6 +54,17 @@
     margin-top: 1.5rem;
 }
 
+/* Third hero line — endorsement note, below the slogan, lighter weight
+   than the main title/slogan since it's a secondary credit line. */
+.event-title-section__endorsement {
+    margin: 0.75rem 0 0;
+    font-size: 1.1875rem;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+    text-shadow: 0 4px 4px #00000040;
+}
+
 /* Registration deadline notice under the hero's CTA buttons. */
 .event-title-section__deadline {
     margin: 0;
