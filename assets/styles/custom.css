@@ -54,13 +54,19 @@
     margin-top: 1.5rem;
 }
 
-/* Third hero line — endorsement note, below the slogan, lighter weight
-   than the main title/slogan since it's a secondary credit line. */
+/* Third hero line — endorsement note. Set apart as an outlined badge
+   (structure/typography, not a color fill) since it's an important,
+   separately-credited claim rather than just descriptive copy. */
 .event-title-section__endorsement {
-    margin: 0.75rem 0 0;
-    font-size: 1.1875rem;
-    font-weight: 600;
-    font-style: italic;
+    margin: 1rem 0 0;
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    border: 0.125rem solid white;
+    border-radius: 999px;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     color: white;
     text-shadow: 0 4px 4px #00000040;
 }
@@ -444,6 +450,46 @@
 
 .faq-item__answer :last-child {
     margin-bottom: 0;
+}
+
+/* Homepage — About section. The theme centers the logo against the whole
+   title+subtitle+paragraph block, which doesn't line up with any one
+   heading. Grid instead: the eyebrow sits alone in row 1, column 2 (so it
+   stays confined to the text column, same as before); the logos and the
+   subtitle/paragraph article both start at row 2 — grid's row-start
+   alignment then guarantees their tops line up exactly, regardless of the
+   eyebrow's rendered height, with no guessed margin values. */
+.event-highlights-section__header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 5.625rem;
+    justify-content: center;
+}
+
+.event-highlights-section__logos {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.event-highlights-section__endorsement-logo {
+    max-width: 16.375rem;
+    max-height: 16.375rem;
+    width: auto;
+    height: auto;
+}
+
+.event-highlights-section__eyebrow {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.event-highlights-section__description {
+    grid-column: 2;
+    grid-row: 2;
 }
 
 /* Homepage — Focus Areas */

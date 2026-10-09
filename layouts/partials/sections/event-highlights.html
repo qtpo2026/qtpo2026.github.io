@@ -11,18 +11,30 @@
 <div class="section-container">
     <section class="section section--long event-highlights-section">
         <header class="event-highlights-section__header">
-            {{- with resources.Get $input.logo }}
-                <img
-                    class="event-highlights-section__logo"
-                    src="{{ .RelPermalink }}"
-                    {{ if not (eq .MediaType.SubType "svg") }}
-                        width="{{ .Width }}" height="{{ .Height }}"
-                    {{ end }} />
-            {{ end }}
+            {{- if or $input.logo $input.endorsementLogo }}
+                <div class="event-highlights-section__logos">
+                    {{- with resources.Get $input.logo }}
+                        <img
+                            class="event-highlights-section__logo"
+                            src="{{ .RelPermalink }}"
+                            {{ if not (eq .MediaType.SubType "svg") }}
+                                width="{{ .Width }}" height="{{ .Height }}"
+                            {{ end }} />
+                    {{ end }}
+                    {{- with resources.Get $input.endorsementLogo }}
+                        <img
+                            class="event-highlights-section__endorsement-logo"
+                            src="{{ .RelPermalink }}"
+                            {{ if not (eq .MediaType.SubType "svg") }}
+                                width="{{ .Width }}" height="{{ .Height }}"
+                            {{ end }} />
+                    {{ end }}
+                </div>
+            {{- end }}
+            <h1 class="heading heading--highlighted event-highlights-section__eyebrow">
+                {{ $input.title }}
+            </h1>
             <article class="event-highlights-section__description">
-                <h1 class="heading heading--highlighted">
-                    {{ $input.title }}
-                </h1>
                 <h2 class="heading heading--2">
                     {{ $input.subtitle }}
                 </h2>

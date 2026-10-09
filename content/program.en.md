@@ -46,7 +46,7 @@ days:
             talk: true
           - time: "10:30 – 10:40"
             label: "Networking Break and Light Refreshments"
-      - title: "Quantum Computing in Radiation Oncology"
+      - title: "Quantum Computing in Radiation Therapy"
         description: |
           This session highlights key application areas in radiation oncology where
           quantum and quantum-inspired approaches may have an impact, including
@@ -79,13 +79,21 @@ days:
       - items:
           - time: "12:00 – 12:30"
             label: "Lunch"
+      - title: "The Future of Quantum Technologies in Biomedical Research"
+        items:
+          - time: "12:30 – 12:50"
+            label: "Keynote Talk"
+            talk: true
+            speakers:
+              - name: "Afrouz Azari Anderson PhD"
+                affiliation: "Program Director, Division of Applied Science & Technology (Biomedical Imaging), National Institute of Biomedical Imaging and Bioengineering (NIBIB), NIH"
       - title: "Quantum Optimization for Treatment Planning: Example and Demonstration"
         description: |
           This session presents a practical example of quantum-enhanced treatment
           planning and includes a demonstration of quantum heuristic decomposition and
           related optimization methods.
         items:
-          - time: "12:30 – 13:30"
+          - time: "12:50 – 13:50"
             label: "Practical Demo Of Quantum-Inspired Treatment Planning For Radiation Therapy"
             talk: true
             speakers:
@@ -99,16 +107,8 @@ days:
                 affiliation: "Purdue University"
               - name: "Jennifer Wei Zou PhD"
                 affiliation: "UPenn"
-          - time: "13:30 – 13:40"
+          - time: "13:50 – 14:00"
             label: "Networking Break and Light Refreshments"
-      - title: "The Future of Quantum Technologies in Biomedical Research"
-        items:
-          - time: "13:40 – 14:00"
-            label: "Keynote Talk"
-            talk: true
-            speakers:
-              - name: "Afrouz Azari Anderson PhD"
-                affiliation: "Program Director, Division of Applied Science & Technology (Biomedical Imaging), National Institute of Biomedical Imaging and Bioengineering (NIBIB), NIH"
       - title: "Quantum Hardware and Platforms for Oncology Applications"
         description: |
           This session provides an overview of current quantum computing platforms and

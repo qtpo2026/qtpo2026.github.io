@@ -112,6 +112,9 @@ languages:
             # path (assets/logos/qtpo-logo.png) and it will appear automatically
             # in the header, sidebar and homepage — no config change needed.
             logo: logos/qtpo-logo.png
+            # AAPM's own endorsement badge graphic, shown stacked below the
+            # QTPO logo on the homepage "about" section.
+            endorsementLogo: logos/aapm.png
             titleBackground: images/homepage_background.png
 
           # Palette derived from the QTPO logo (navy / teal / violet). Swap for
