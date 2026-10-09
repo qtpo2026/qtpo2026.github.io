@@ -140,7 +140,7 @@ days:
                 affiliation: "D-Wave"
           - time: "15:20 – 15:30"
             label: "Networking Break and Light Refreshments"
-      - title: "Quantum Computing: Case Studies in Health Care Applications"
+      - title: "Quantum Computing: Case Studies in Healthcare Applications"
         description: |
           This session focuses on practical examples and case studies at the
           intersection of quantum computing and radiation oncology, including planning
