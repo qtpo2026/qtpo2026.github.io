@@ -147,7 +147,7 @@ days:
           workflows and clinically motivated computational challenges.
         items:
           - time: "15:30 – 15:50"
-            label: "Application Talk"
+            label: "Quantum Computing Optimization: Where we are and what to expect"
             talk: true
             speakers:
               - name: "Tamas Terlaky PhD"
