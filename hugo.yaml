@@ -240,7 +240,7 @@ languages:
               logo: logos/sponsors/umd-college-park.png
               url:  https://umd.edu/
             - name: "Siemens Healthineers"
-              logo: logos/sponsors/sh.jpg
+              logo: logos/sponsors/sh.svg
               url: https://www.siemens-healthineers.com/
             - name: "D-Wave"
               logo: logos/sponsors/d-wave.png
