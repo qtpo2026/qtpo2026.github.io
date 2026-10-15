@@ -75,7 +75,7 @@
    closer to the button — the footer's shared flex gap (1.5625rem) was
    leaving it looking disconnected, floating near the hero's bottom edge. */
 .event-title-section__deadline {
-    margin: -0.75rem 0 0;
+    margin: -1.25rem 0 0;
     font-size: 1.0625rem;
     font-weight: 700;
     color: #ff4d4d;
