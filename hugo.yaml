@@ -239,6 +239,9 @@ languages:
             - name: "University of Maryland, College Park"
               logo: logos/sponsors/umd-college-park.png
               url:  https://umd.edu/
+            - name: "Siemens Healthineers"
+              logo: logos/sponsors/sh.jpg
+              url: https://www.siemens-healthineers.com/
             - name: "D-Wave"
               logo: logos/sponsors/d-wave.png
               url: https://www.dwavequantum.com/
