@@ -196,7 +196,6 @@ languages:
           # "Workshop Coordination" tier below the committee.
           workshopCoordination:
             - name: "Anish Ghosh"
-              role: "Student Organizer"
               affiliation: "University of Maryland, Baltimore County (UMBC)"
               photo: headshots/headshot_small/anish-ghosh.jpg
               url:
@@ -242,12 +241,12 @@ languages:
             - name: "Siemens Healthineers"
               logo: logos/sponsors/sh.svg
               url: https://www.siemens-healthineers.com/
-            - name: "D-Wave"
-              logo: logos/sponsors/d-wave.png
-              url: https://www.dwavequantum.com/
             - name: "Varian"
               logo: logos/sponsors/varian.jpg
               url: https://www.varian.com/
+            - name: "D-Wave"
+              logo: logos/sponsors/d-wave.png
+              url: https://www.dwavequantum.com/
             - name: "Fujitsu"
               logo: logos/sponsors/fujitsu.svg
               url: https://global.fujitsu/en-US/local/technology/research

@@ -116,9 +116,10 @@ days:
           including optimization and computational workflows.
         items:
           - time: "14:00 – 14:20"
-            label: "Quantum Hardware Session"
+            label: "IonQ: TBD"
             talk: true
             speakers:
+            - name: "TBD"
             - name: "TBD"
           - time: "14:20 – 14:40"
             label: "Fujitsu: Quantum and Quantum-Inspired Platforms for Healthcare Applications"
