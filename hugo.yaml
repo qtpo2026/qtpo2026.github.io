@@ -245,6 +245,9 @@ languages:
             - name: "D-Wave"
               logo: logos/sponsors/d-wave.png
               url: https://www.dwavequantum.com/
+            - name: "Varian"
+              logo: logos/sponsors/varian.jpg
+              url: https://www.varian.com/
             - name: "Fujitsu"
               logo: logos/sponsors/fujitsu.svg
               url: https://global.fujitsu/en-US/local/technology/research
