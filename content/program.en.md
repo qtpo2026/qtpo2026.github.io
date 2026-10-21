@@ -23,19 +23,19 @@ days:
               - name: "Gopal K. Bajaj MD, MBA, FASTRO"
                 affiliation: "Inova Schar Cancer Institute"
           - time: "9:15 – 9:35"
-            label: "Keynote Talk; How to Build a Quantum Computer and How to Use It"
+            label: "Keynote Talk: How to Build a Quantum Computer and How to Use It"
             talk: true
             speakers:
               - name: "Norbert Linke PhD"
                 affiliation: "Quantum National Lab, UMD"
           - time: "9:35 – 9:55"
-            label: "Keynote Talk; Quantum Technologies for Precision Oncology: Opportunities and Challenges from a Clinical Perspective"
+            label: "Keynote Talk: Quantum Technologies for Precision Oncology: Opportunities and Challenges from a Clinical Perspective"
             talk: true
             speakers:
               - name: "Mitsuho Imai MD PhD"
                 affiliation: "National Cancer Center Hospital East, Japan"
           - time: "9:55 – 10:20"
-            label: "Keynote Talk; Intersection of the First Carbon-Ion Radiation Therapy Center in America and Quantum Technologies"
+            label: "Keynote Talk: Intersection of the First Carbon-Ion Radiation Therapy Center in America and Quantum Technologies"
             talk: true
             speakers:
               - name: "Chris Beltran PhD"
@@ -98,13 +98,13 @@ days:
       - title: "The Future of Quantum Technologies in Biomedical Research and Medicine"
         items:
           - time: "13:00 – 13:15"
-            label: "Keynote Talk; Quantum-Enabled Biomedical Technologies: NIH Advances and Opportunities"
+            label: "Keynote Talk: Quantum-Enabled Biomedical Technologies: NIH Advances and Opportunities"
             talk: true
             speakers:
               - name: "Afrouz Azari Anderson PhD"
                 affiliation: "Division of Applied Science & Technology (Biomedical Imaging), National Institute of Biomedical Imaging and Bioengineering (NIBIB), NIH"
           - time: "13:15 – 13:30"
-            label: "Keynote Talk; Quantum Biomedical Innovations and Technologies (Qu-BIT)"
+            label: "Keynote Talk: Quantum Biomedical Innovations and Technologies (Qu-BIT)"
             talk: true
             speakers:
               - name: "Geetha Senthil, PhD"
@@ -144,7 +144,7 @@ days:
       - title: "Radiation Therapy for Cancer Treatment: Hardware and Platforms"
         items:
           - time: "14:40 – 15:00"
-            label: "Keynote Talk; The Evolution of Radiation Therapy Technology: Lessons Learned and Future Directions – To be confirmed"
+            label: "Keynote Talk: The Evolution of Radiation Therapy Technology: Lessons Learned and Future Directions – To be confirmed"
             talk: true
             speakers:
               - name: "Ken Taguchi PhD"
@@ -233,13 +233,13 @@ days:
       - title: "Welcome and New Technologies for Cancer Treatment"
         items:
           - time: "9:00 – 9:15"
-            label: "Keynote Talk; The missing big piece: Quantum Computing Algorithms"
+            label: "Keynote Talk: The missing big piece: Quantum Computing Algorithms"
             talk: true
             speakers:
               - name: "Antonio Paes PhD"
                 affiliation: "D-Wave"
           - time: "9:15 – 9:30"
-            label: "Keynote Talk; TBD"
+            label: "Keynote Talk: TBD"
             talk: true
             speakers:
               - name: "Mahadevappa Mahesh PhD"
