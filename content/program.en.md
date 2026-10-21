@@ -232,7 +232,7 @@ days:
     date: "Friday, November 6, 2026"
     format: "In person"
     sessions:
-      - title: "Quantum & Quantum-Inspired Techniques for Biology and Medicine"
+      - title: "Keynote Talks"
         items:
           - time: "9:00 – 9:15"
             label: "The missing big piece: Quantum Computing Algorithms"
@@ -246,6 +246,8 @@ days:
             speakers:
               - name: "Jennifer Segui PhD"
                 affiliation: "Center for Devices and Radiological Health, FDA"
+      - title: "Quantum & Quantum-Inspired Techniques for Biology and Medicine"
+        items:
           - time: "9:30 – 9:45"
             label: "TBD"
             talk: true
