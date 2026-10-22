@@ -241,9 +241,12 @@ languages:
             - name: "Siemens Healthineers"
               logo: logos/sponsors/sh.svg
               url: https://www.siemens-healthineers.com/
-            - name: "Varian"
-              logo: logos/sponsors/varian.jpg
-              url: https://www.varian.com/
+            - name: "RaySearch Laboratories"
+              logo: logos/sponsors/ray_search.png
+              url: https://www.raysearchlabs.com/
+            - name: "IBA"
+              logo: logos/sponsors/iba.png
+              url: https://iba-worldwide.com/
             - name: "D-Wave"
               logo: logos/sponsors/d-wave.png
               url: https://www.dwavequantum.com/
@@ -256,15 +259,15 @@ languages:
             - name: "Quantum Computing Inc"
               logo: logos/sponsors/qci.jpg
               url : https://quantumcomputinginc.com/
-            - name: "Zapata AI"
-              logo: logos/sponsors/zapata.png
-              url: https://zapataquantum.com/
+            - name: "IonQ"
+              logo: logos/sponsors/IonQ_corp_logo.svg
+              url: https://ionq.com/
             - name: "UMBC Quantum Science Institute"
               logo: logos/sponsors/qsi.png
               url : https://qsi.umbc.edu/
-            - name: "University of Maryland School of Medicine"
-              logo: logos/sponsors/umd-school-of-medicine.svg
-              url: https://www.medschool.umaryland.edu/
+            - name: "Zapata AI"
+              logo: logos/sponsors/zapata.png
+              url: https://zapataquantum.com/
 
 
 
