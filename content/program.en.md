@@ -7,10 +7,6 @@ days:
     format: "Hybrid — in person and online"
     sessions:
       - title: "Welcome and Quantum Computing in Cancer Treatment"
-        description: |
-          This opening session introduces the goals of the workshop and provides a broad
-          overview of the role of quantum and quantum-inspired technologies in oncology,
-          with perspectives from research, medicine, and clinical innovation.
         items:
           - time: "9:00 – 9:05"
             label: "Welcome"
@@ -43,10 +39,6 @@ days:
           - time: "10:20 – 10:30"
             label: "Networking Break and Light Refreshments"
       - title: "Quantum Computing in Radiation Therapy"
-        description: |
-          This session highlights key application areas in radiation oncology where
-          quantum and quantum-inspired approaches may have an impact, including
-          treatment planning, imaging, workflow, and related clinical challenges.
         items:
           - time: "10:30 – 10:45"
             label: "Radiation Therapy for Cancer: Clinical Workflow and Treatment Delivery"
@@ -73,10 +65,6 @@ days:
               - name: "Akira SaiToh PhD"
                 affiliation: "Sojo University"
       - title: "Quantum Optimization for Treatment Planning: Example and Demonstration"
-        description: |
-          This session presents a practical example of quantum-enhanced treatment
-          planning and includes a demonstration of quantum heuristic decomposition and
-          related optimization methods.
         items:
           - time: "11:30 – 12:30"
             label: "Practical Demo of Quantum-Inspired Treatment Planning for Radiation Therapy"
@@ -110,10 +98,6 @@ days:
               - name: "Geetha Senthil, PhD"
                 affiliation: "National Institute of Health NIH NCATS"
       - title: "Quantum Computing: Hardware and Platforms"
-        description: |
-          This session provides an overview of current quantum computing platforms and
-          hardware approaches relevant to healthcare and oncology applications,
-          including optimization and computational workflows.
         items:
           - time: "13:30 – 13:45"
             label: "Hybrid Classical-Quantum Healthcare Applications using IonQ Trapped-Ion Quantum Computers"
@@ -162,10 +146,6 @@ days:
               - name: "Francois Vander Stappen PhD"
                 affiliation: "IBA"
       - title: "Quantum Computing: Case Studies in Healthcare Applications"
-        description: |
-          This session focuses on practical examples and case studies at the
-          intersection of quantum computing and radiation oncology, including planning
-          workflows and clinically motivated computational challenges.
         items:
           - time: "15:30 – 15:45"
             label: "Quantum Computing Optimization: Where we are and what to expect"
@@ -192,10 +172,6 @@ days:
               - name: "Babak Emami PhD"
                 affiliation: "Quantum Computing Inc. (QCI)"
       - title: "International Collaboration and Research Opportunities Panel"
-        description: |
-          This short session highlights opportunities for international collaboration,
-          partnership building, and future research initiatives in quantum
-          technologies for precision oncology.
         items:
           - time: "17:00 – 17:20"
             label: "International Collaboration Panel"
@@ -212,10 +188,6 @@ days:
               - name: "Naoru Koizumi PhD"
                 affiliation: "JSPS Alumni Association Capital Chapter"
       - title: "First day closing and departure for facility visit - photon and proton therapy systems"
-        description: |
-          Participants will travel to a cancer treatment facility for a guided visit,
-          including exposure to photon and proton therapy systems and adaptive
-          treatment technologies.
         items:
           - time: "18:00 – 18:10"
             label: "Welcome and Introduction"
