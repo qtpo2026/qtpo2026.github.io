@@ -219,11 +219,11 @@ days:
       - title: "Quantum & Quantum-Inspired Techniques for Biology and Medicine"
         items:
           - time: "9:30 – 9:45"
-            label: "TBD"
+            label: "Monte Carlo methods using quantum computers"
             talk: true
             speakers:
-              - name: "TBD"
-                affiliation: "TBD"
+              - name: "Alex Khan PhD"
+                affiliation: "BosonQ Psi"
           - time: "9:45 – 10:00"
             label: "Quantum-Inspired Optimization and Adaptive Decision Support for Radiation Therapy Treatment Planning"
             talk: true
