@@ -219,7 +219,7 @@ days:
       - title: "Quantum & Quantum-Inspired Techniques for Biology and Medicine"
         items:
           - time: "9:30 – 9:45"
-            label: "Monte Carlo methods using quantum computers"
+            label: "Monte Carlo Methods Using Quantum Computers"
             talk: true
             speakers:
               - name: "Alex Khan PhD"
