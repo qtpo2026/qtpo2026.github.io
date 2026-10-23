@@ -211,7 +211,7 @@ days:
               - name: "Antonio Paes PhD"
                 affiliation: "D-Wave"
           - time: "9:15 – 9:30"
-            label: "Keynote Talk: TBD"
+            label: "Keynote Talk"
             talk: true
             speakers:
               - name: "Mahadevappa Mahesh PhD"
