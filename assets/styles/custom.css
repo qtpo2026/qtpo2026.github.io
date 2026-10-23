@@ -122,18 +122,35 @@
     box-shadow: none;
 }
 
-/* JSPS's logo is an unusually wide, thin wordmark (roughly 5:1), so it
-   scales down small inside the standard square sponsor card. Give its
-   grid item double the width so the logo renders at a comparable size
-   to the others, instead of trying to fix an image via font-size. */
-.our-sponsors__list-item:has(img[alt*='JSPS']),
-.sponsors__list-item:has(img[alt*='JSPS']) {
-    flex-basis: calc(50% - 1.4rem);
+/* Strict 3-per-row sponsor grid (the theme's flex-wrap just reflows based
+   on cumulative item width, which doesn't guarantee a fixed column count).
+   Logo/card sizes are untouched — only the grid spacing changes. */
+.sponsors__list,
+.our-sponsors__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 1.875rem;
+    column-gap: 1.4rem;
 }
 
-.our-sponsors__list-item:has(img[alt*='JSPS']) .sponsor-card,
-.sponsors__list-item:has(img[alt*='JSPS']) .sponsor-card {
-    width: 100%;
+.sponsors__list-item,
+.our-sponsors__list-item {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .sponsors__list,
+    .our-sponsors__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .sponsors__list,
+    .our-sponsors__list {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Show the brand logo/title in the header on every viewport width — the
