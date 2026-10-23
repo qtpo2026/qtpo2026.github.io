@@ -128,10 +128,10 @@ days:
       - title: "Radiation Therapy for Cancer Treatment: Hardware and Platforms"
         items:
           - time: "14:40 – 15:00"
-            label: "Keynote Talk: The Evolution of Radiation Therapy Technology: Lessons Learned and Future Directions – To be confirmed"
+            label: "Keynote Talk: The Evolution of Radiation Therapy Technology: Lessons Learned and Future Directions "
             talk: true
             speakers:
-              - name: "Ken Taguchi PhD"
+              - name: "To be confirmed"
                 affiliation: "Johns Hopkins University"
           - time: "15:00 – 15:15"
             label: "Innovations in Monte Carlo based Treatment Plan Optimization with RayStation"
