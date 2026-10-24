@@ -211,10 +211,10 @@ days:
               - name: "Antonio Paes PhD"
                 affiliation: "D-Wave"
           - time: "9:15 – 9:30"
-            label: "Keynote Talk"
+            label: "Keynote Talk: The Evolution of Radiation Therapy Technologies: Lessons Learned and Future Directions"
             talk: true
             speakers:
-              - name: "Mahadevappa Mahesh PhD"
+              - name: "M. Mahesh, MS, PhD, FAAPM, FACR, FACMP, FSCCT, FIOMP, FIUPESM"
                 affiliation: "Johns Hopkins University"
       - title: "Quantum & Quantum-Inspired Techniques for Biology and Medicine"
         items:
