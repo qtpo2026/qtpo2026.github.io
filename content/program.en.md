@@ -122,7 +122,7 @@ days:
       - title: "Radiation Therapy for Cancer Treatment: Hardware and Platforms"
         items:
           - time: "14:25 – 14:45"
-            label: "Keynote Talk: The Evolution of Radiation Therapy Technology: Lessons Learned and Future Directions "
+            label: "Keynote Talk "
             talk: true
             speakers:
               - name: "To be confirmed"
