@@ -91,55 +91,49 @@ days:
             speakers:
               - name: "Afrouz Azari Anderson PhD"
                 affiliation: "Division of Applied Science & Technology (Biomedical Imaging), National Institute of Biomedical Imaging and Bioengineering (NIBIB), NIH"
-          - time: "13:15 – 13:30"
-            label: "Keynote Talk: Quantum Biomedical Innovations and Technologies (Qu-BIT)"
-            talk: true
-            speakers:
-              - name: "Geetha Senthil, PhD"
-                affiliation: "National Institute of Health NIH NCATS"
       - title: "Quantum Computing: Hardware and Platforms"
         items:
-          - time: "13:30 – 13:45"
+          - time: "13:15 – 13:30"
             label: "Hybrid Classical-Quantum Healthcare Applications using IonQ Trapped-Ion Quantum Computers"
             talk: true
             speakers:
               - name: "Masako Yamada PhD"
                 affiliation: "IonQ"
-          - time: "13:45 – 14:00"
+          - time: "13:30 – 13:45"
             label: "D-Wave: Quantum Annealing for Optimization in Healthcare and Oncology"
             talk: true
             speakers:
               - name: "Brian Major"
                 affiliation: "D-Wave"
-          - time: "14:00 – 14:15"
+          - time: "13:45 – 14:00"
             label: "Quantum Computing Inc.: Quantum Technologies and Platforms for Healthcare Applications"
             talk: true
             speakers:
               - name: "Wesley Dyk"
                 affiliation: "Quantum Computing Inc. (QCI)"
-          - time: "14:15 – 14:30"
+          - time: "14:00 – 14:15"
             label: "Fujitsu: Quantum and Quantum-Inspired Platforms for Healthcare Applications"
             talk: true
             speakers:
               - name: "Saif Rayyan PhD"
                 affiliation: "Fujitsu"
-          - time: "14:30 – 14:40"
+          - time: "14:15 – 14:25"
             label: "Networking Break and Light Refreshments"
       - title: "Radiation Therapy for Cancer Treatment: Hardware and Platforms"
         items:
-          - time: "14:40 – 15:00"
+          - time: "14:25 – 14:45"
             label: "Keynote Talk: The Evolution of Radiation Therapy Technology: Lessons Learned and Future Directions "
             talk: true
             speakers:
               - name: "To be confirmed"
                 affiliation: "Johns Hopkins University"
-          - time: "15:00 – 15:15"
+          - time: "14:45 – 15:00"
             label: "Innovations in Monte Carlo based Treatment Plan Optimization with RayStation"
             talk: true
             speakers:
               - name: "Erik Traneus PhD"
                 affiliation: "RaySearch"
-          - time: "15:15 – 15:30"
+          - time: "15:00 – 15:15"
             label: "Advancing Proton Therapy: FLASH, ARC, and Emerging Computational Challenges"
             talk: true
             speakers:
@@ -147,12 +141,18 @@ days:
                 affiliation: "IBA"
       - title: "Quantum Computing: Case Studies in Healthcare Applications"
         items:
-          - time: "15:30 – 15:45"
+          - time: "15:15 – 15:30"
             label: "Quantum Computing Optimization: Where we are and what to expect"
             talk: true
             speakers:
               - name: "Tamas Terlaky PhD"
                 affiliation: "Lehigh University"
+          - time: "15:30 – 15:45"
+            label: "Monte Carlo Methods Using Quantum Computers"
+            talk: true
+            speakers:
+              - name: "Alex Khan PhD"
+                affiliation: "BosonQ Psi"
           - time: "15:45 – 16:00"
             label: "Zapata: Quantum-Inspired Computing for Healthcare and Oncology Applications"
             talk: true
@@ -216,14 +216,14 @@ days:
             speakers:
               - name: "M. Mahesh, MS, PhD, FAAPM, FACR, FACMP, FSCCT, FIOMP, FIUPESM"
                 affiliation: "Johns Hopkins University"
-      - title: "Quantum & Quantum-Inspired Techniques for Biology and Medicine"
-        items:
           - time: "9:30 – 9:45"
-            label: "Monte Carlo Methods Using Quantum Computers"
+            label: "Keynote Talk: Quantum Biomedical Innovations and Technologies (Qu-BIT)"
             talk: true
             speakers:
-              - name: "Alex Khan PhD"
-                affiliation: "BosonQ Psi"
+              - name: "Geetha Senthil, PhD"
+                affiliation: "National Institute of Health NIH NCATS"
+      - title: "Quantum & Quantum-Inspired Techniques for Biology and Medicine"
+        items:
           - time: "9:45 – 10:00"
             label: "Quantum-Inspired Optimization and Adaptive Decision Support for Radiation Therapy Treatment Planning"
             talk: true
@@ -270,6 +270,8 @@ days:
                 affiliation: "Superintendent Fairfax County Public Schools"
               - name: "Anna Najafi"
                 affiliation: "Virginia Tech"
+              - name: "Mehmet Aydeniz PhD"
+                affiliation: "University of Tennessee, Knoxville"
       - items:
           - time: "11:30"
             label: "Lunch; Closing Remarks and Adjourn"
