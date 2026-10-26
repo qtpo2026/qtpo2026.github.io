@@ -126,7 +126,7 @@ days:
             talk: true
             speakers:
               - name: "To be confirmed"
-                affiliation: "Johns Hopkins University"
+                affiliation: ""
           - time: "14:45 – 15:00"
             label: "Innovations in Monte Carlo based Treatment Plan Optimization with RayStation"
             talk: true
