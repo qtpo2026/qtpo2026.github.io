@@ -177,8 +177,6 @@ days:
             label: "International Collaboration Panel"
             talk: true
             speakers:
-              - name: "Masafumi Sato PhD"
-                affiliation: "AMED Washington DC Office"
               - name: "Jun Sugihara PhD"
                 affiliation: "AMED Washington DC Office"
               - name: "Yohta Tsubai"
