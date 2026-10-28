@@ -110,35 +110,35 @@ days:
             talk: true
             speakers:
               - name: "Wesley Dyk"
-                affiliation: "Quantum Computing Inc. (QCI)"
+                affiliation: "Quantum Computing Inc."
           - time: "14:00 – 14:15"
             label: "Fujitsu: Quantum and Quantum-Inspired Platforms for Healthcare Applications"
             talk: true
             speakers:
               - name: "Saif Rayyan PhD"
                 affiliation: "Fujitsu"
-          - time: "14:15 – 14:25"
-            label: "Networking Break and Light Refreshments"
       - title: "Radiation Therapy for Cancer Treatment: Hardware and Platforms"
         items:
-          - time: "14:25 – 14:45"
+          - time: "14:15 – 14:35"
             label: "Keynote Talk "
             talk: true
             speakers:
               - name: "To be confirmed"
                 affiliation: ""
-          - time: "14:45 – 15:00"
+          - time: "14:35 – 14:55"
             label: "Innovations in Monte Carlo based Treatment Plan Optimization with RayStation"
             talk: true
             speakers:
               - name: "Erik Traneus PhD"
                 affiliation: "RaySearch"
-          - time: "15:00 – 15:15"
+          - time: "14:55 – 15:05"
             label: "Advancing Proton Therapy: FLASH, ARC, and Emerging Computational Challenges"
             talk: true
             speakers:
               - name: "Francois Vander Stappen PhD"
                 affiliation: "IBA"
+         - time: "15:05 – 15:15"
+            label: "Networking Break and Light Refreshments"
       - title: "Quantum Computing: Case Studies in Healthcare Applications"
         items:
           - time: "15:15 – 15:30"
@@ -170,14 +170,14 @@ days:
             talk: true
             speakers:
               - name: "Babak Emami PhD"
-                affiliation: "Quantum Computing Inc. (QCI)"
+                affiliation: "Quantum Computing Inc."
       - title: "International Collaboration and Research Opportunities Panel"
         items:
           - time: "17:00 – 17:20"
             label: "International Collaboration Panel"
             talk: true
             speakers:
-              - name: "Jun Sugihara PhD"
+              - name: "Jun Sugihara MD"
                 affiliation: "AMED Washington DC Office"
               - name: "Yohta Tsubai"
                 affiliation: "JSPS Washington DC Office"
