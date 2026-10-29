@@ -36,6 +36,7 @@ days:
             speakers:
               - name: "Chris Beltran PhD"
                 affiliation: "Mayo Clinic"
+      - items:
           - time: "10:20 – 10:30"
             label: "Networking Break and Light Refreshments"
       - title: "Quantum Computing in Radiation Therapy"
