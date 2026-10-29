@@ -137,6 +137,7 @@ days:
             speakers:
               - name: "Francois Vander Stappen PhD"
                 affiliation: "IBA"
+      - items:
           - time: "15:05 – 15:15"
             label: "Networking Break and Light Refreshments"
       - title: "Quantum Computing: Case Studies in Healthcare Applications"
