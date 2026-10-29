@@ -121,11 +121,11 @@ days:
       - title: "Radiation Therapy for Cancer Treatment: Hardware and Platforms"
         items:
           - time: "14:15 – 14:35"
-            label: "Keynote Talk "
+            label: "Keynote Talk: The Evolution of Radiation Oncology: Emerging Technologies and Computational Frontiers "
             talk: true
             speakers:
-              - name: "To be confirmed"
-                affiliation: ""
+              - name: "Robabeh Rahimi, PhD, DABR"
+                affiliation: "Inova Health System"
           - time: "14:35 – 14:55"
             label: "Innovations in Monte Carlo based Treatment Plan Optimization with RayStation"
             talk: true
